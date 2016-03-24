@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E7C7B2;}
+	.st1{fill:#CB6843;}
+	.st2{fill:#CB6843;stroke:#CB6843;stroke-width:2.9959;stroke-miterlimit:10;}
+	.st3{fill:#CB6843;stroke:#CB6843;stroke-width:1.9973;stroke-miterlimit:10;}
+	.st4{fill:#CB6843;stroke:#E7C7B2;stroke-width:4.1592;stroke-linejoin:bevel;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M24,248c-8.8,0-16-7.2-16-16V24c0-8.8,7.2-16,16-16h208c8.8,0,16,7.2,16,16v208c0,8.8-7.2,16-16,16H24z"/>
+	<path class="st1" d="M232,16c4.4,0,8,3.6,8,8v208c0,4.4-3.6,8-8,8H24c-4.4,0-8-3.6-8-8V24c0-4.4,3.6-8,8-8H232 M232,0H24
+		C10.7,0,0,10.7,0,24v208c0,13.3,10.7,24,24,24h208c13.3,0,24-10.7,24-24V24C256,10.7,245.3,0,232,0L232,0z"/>
+</g>
+<g>
+	<g>
+		<g>
+			<path class="st1" d="M50.2,126.1"/>
+			<path class="st1" d="M203.8,126.1"/>
+			<path class="st2" d="M128,208.1c-44.1,0-80.1-35.9-80.1-80.1S83.9,48,128,48s80.1,35.9,80.1,80.1S172.1,208.1,128,208.1z
+				 M128,55.5c-40.6,0-72.5,32-72.5,72.6s32,72.6,72.5,72.6s72.5-32,72.5-72.6S168.6,55.5,128,55.5z"/>
+		</g>
+		<g>
+			<rect x="83.2" y="62.4" class="st3" width="89.6" height="3.3"/>
+		</g>
+		<g>
+			<rect x="70.4" y="75.2" class="st3" width="115.2" height="3.3"/>
+		</g>
+		<g>
+			<rect x="60.8" y="88" class="st3" width="134.4" height="3.3"/>
+		</g>
+		<g>
+			<rect x="54.4" y="100.8" class="st3" width="147.2" height="3.3"/>
+		</g>
+		<g>
+			<rect x="51.2" y="113.6" class="st3" width="153.6" height="3.3"/>
+		</g>
+		<g>
+			<rect x="51.2" y="126.4" class="st3" width="153.6" height="3.3"/>
+		</g>
+		<g>
+			<rect x="54.4" y="139.2" class="st3" width="150.4" height="3.3"/>
+		</g>
+		<g>
+			<rect x="57.6" y="152" class="st3" width="140.8" height="3.3"/>
+		</g>
+		<g>
+			<rect x="64" y="164.8" class="st3" width="128" height="3.3"/>
+		</g>
+		<g>
+			<rect x="70.4" y="177.6" class="st3" width="112" height="3.3"/>
+		</g>
+		<g>
+			<rect x="89.6" y="190.4" class="st3" width="76.8" height="3.3"/>
+		</g>
+		<g>
+			<rect x="164.8" y="60.8" class="st3" width="3.3" height="128"/>
+		</g>
+		<g>
+			<rect x="88" y="60.8" class="st3" width="3.3" height="131.1"/>
+		</g>
+		<g>
+			<rect x="126.4" y="51.2" class="st3" width="3.3" height="153.6"/>
+		</g>
+	</g>
+	<rect x="100.9" y="120" class="st4" width="54.2" height="16"/>
+</g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#CAB39D;}
+	.st1{fill:none;}
+	.st2{fill:none;stroke:#9D8B72;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:#9D8B72;}
+</style>
+<rect class="st0" width="32" height="32"/>
+<rect x="0" y="0" class="st1" width="32" height="32"/>
+<g>
+	<path class="st2" d="M29.1,8c0-2.8-2.2-5-5-5s-5,2.2-5,5"/>
+	<path class="st2" d="M21.1,18.5c0-2.8-2.2-5-5-5s-5,2.2-5,5"/>
+	<path class="st2" d="M5,18.5c0-2.8-2.2-5-5-5"/>
+	<path class="st2" d="M32,13.5c-2.8,0-5,2.2-5,5"/>
+	<path class="st2" d="M13.1,8c0-2.8-2.2-5-5-5s-5,2.2-5,5"/>
+	<path class="st2" d="M29.1,29c0-2.8-2.2-5-5-5s-5,2.2-5,5"/>
+	<path class="st2" d="M13.1,29c0-2.8-2.2-5-5-5s-5,2.2-5,5"/>
+</g>
+<g>
+	<path class="st3" d="M31.5,0.5v31h-31v-31H31.5 M32,0H0v32h32V0L32,0z"/>
+</g>
+</svg>

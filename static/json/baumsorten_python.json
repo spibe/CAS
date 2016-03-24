@@ -1,0 +1,2466 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "name": "Zelkova serrata (Japanische Zelkove)", 
+                    "size": 51
+                }
+            ], 
+            "name": "Zelkova"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Robinia pseudoacacia \"Umbraculifera\" (Kugel-Robinie)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Robinia pseudoacacia \"Unifolia\" (Einbl\u00e4ttrige Robinie)", 
+                    "size": 106
+                }, 
+                {
+                    "name": "Robinia pseudoacacia \"Tortuosa\" (Korkenzieher-Robinie)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Robinia sp. (Scheinakazie / Robinie)", 
+                    "size": 17
+                }, 
+                {
+                    "name": "Robinia pseudoacacia (Gew\u00f6hnliche Scheinakazie / Robinie)", 
+                    "size": 744
+                }, 
+                {
+                    "name": "Robinia pseudoacacia \"Bessoniana\" (Kegel-Robinie)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Robinia viscosa (Klebrige Robinie)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Robinia pseudoacacia \"Semperflorens\" (Robinie \"Semperflorens\")", 
+                    "size": 14
+                }, 
+                {
+                    "name": "Robinia x margaretta \"Casque Rouge\" (Rotbl\u00fchende Robinie)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Robinia pseudoacacia \"Fastigiata\" (S\u00e4ulen-Robinie)", 
+                    "size": 16
+                }, 
+                {
+                    "name": "Robinia pseudoacacia \"Pyramidalis\" (Pyramiden-Robinie)", 
+                    "size": 114
+                }
+            ], 
+            "name": "Robinia"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Nothofagus antarctica (Antarktische Scheinbuche)", 
+                    "size": 2
+                }
+            ], 
+            "name": "Nothofagus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Ulmus sp. (Ulme)", 
+                    "size": 18
+                }, 
+                {
+                    "name": "Ulmus x hollandica (Holl\u00e4ndische Ulme)", 
+                    "size": 25
+                }, 
+                {
+                    "name": "Ulmus glabra (Berg-Ulme)", 
+                    "size": 44
+                }, 
+                {
+                    "name": "Ulmus hybr. \"Sapporo Autumn Gold\" (Korkenzieherweide)", 
+                    "size": 12
+                }, 
+                {
+                    "name": "Ulmus minor (Feld-Ulme)", 
+                    "size": 60
+                }, 
+                {
+                    "name": "Ulmus laevis (Flatter-Ulme)", 
+                    "size": 26
+                }
+            ], 
+            "name": "Ulmus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Corylus avellana (Gew\u00f6hnliche Haselnuss)", 
+                    "size": 17
+                }, 
+                {
+                    "name": "Corylus colurna (Baum-Hasel)", 
+                    "size": 201
+                }
+            ], 
+            "name": "Corylus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Morus alba (Weisser Maulbeerbaum)", 
+                    "size": 9
+                }, 
+                {
+                    "name": "Morus nigra (Schwarzer Maulbeerbaum)", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Morus alba \"Pendula\" (Weisser Maulbeerbaum)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Morus kagayamae (Brombeer-Platane)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Morus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Crataegus x lavallei \"Carrierei\" (Ledriger Weissdorn)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Crataegus monogyna (Eingriffliger Weissdorn)", 
+                    "size": 7
+                }, 
+                {
+                    "name": "Crataegus laevigata \"Paulii\" (Rotdorn \"Pauls Scarlet\")", 
+                    "size": 6
+                }, 
+                {
+                    "name": "Crataegus laevigata (Zweigriffliger Weissdorn)", 
+                    "size": 15
+                }, 
+                {
+                    "name": "Crataegus sp. (Weissdorn)", 
+                    "size": 7
+                }, 
+                {
+                    "name": "Crataegus crus-galli (Hahnensporn-Weissdorn)", 
+                    "size": 6
+                }, 
+                {
+                    "name": "Crataegus x lavallei (Leder-Weissdorn)", 
+                    "size": 106
+                }
+            ], 
+            "name": "Crataegus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Sorbus alnifolia (Erlenbl\u00e4ttrige Mehlbeere)", 
+                    "size": 8
+                }, 
+                {
+                    "name": "Sorbus torminalis (Elsbeere)", 
+                    "size": 21
+                }, 
+                {
+                    "name": "Sorbus sp. (Eberesche)", 
+                    "size": 4
+                }, 
+                {
+                    "name": "Sorbus domestica (Speierling)", 
+                    "size": 14
+                }, 
+                {
+                    "name": "Sorbus aucuparia (Vogelbeere / Gew\u00f6hnliche Eberesche)", 
+                    "size": 34
+                }, 
+                {
+                    "name": "Sorbus intermedia (Schwedische Mehlbeere)", 
+                    "size": 96
+                }, 
+                {
+                    "name": "Sorbus x thuringiaca (Th\u00fcringer Mehlbeere)", 
+                    "size": 4
+                }, 
+                {
+                    "name": "Sorbus aria (Gew\u00f6hnliche Mehlbeere)", 
+                    "size": 28
+                }
+            ], 
+            "name": "Sorbus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Taxus baccata \"Fastigiata\" (S\u00e4ulen-Eibe)", 
+                    "size": 21
+                }, 
+                {
+                    "name": "Taxus sp. (Eibe)", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Taxus baccata \"Hibernica\" (Europ\u00e4ische Eibe)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Taxus baccata (Gew\u00f6hnliche oder Europ\u00e4ische Eibe)", 
+                    "size": 615
+                }
+            ], 
+            "name": "Taxus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "xCuprocyparis leylandii (Leyland-Zypresse)", 
+                    "size": 3
+                }
+            ], 
+            "name": "xCuprocyparis"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Cupressus sempervirens \"Stricta\" (Mittelmeer-Zypresse)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Cupressus arizonica \"Fastigiata\" (Arizona-Zypressen)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Cupressus sempervirens (Echte Zypresse)", 
+                    "size": 12
+                }, 
+                {
+                    "name": "Cupressus arizonica \"Glauca\" (Arizona-Zypresse)", 
+                    "size": 2
+                }
+            ], 
+            "name": "Cupressus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Rhamnus sp. (Kreuzdorn)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Rhamnus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Tsuga canadensis (Kanadische Hemlocktanne)", 
+                    "size": 20
+                }
+            ], 
+            "name": "Tsuga"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Fraxinus latifolia (Oregon-Esche / Breitbl\u00e4ttrige Esche)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Fraxinus ornus (Blumen-Esche/ Manna-Esche)", 
+                    "size": 137
+                }, 
+                {
+                    "name": "Fraxinus excelsior \"Atlas\" (Gew\u00f6hnliche Esche \"Atlas\")", 
+                    "size": 217
+                }, 
+                {
+                    "name": "Fraxinus americana (Weiss-Esche)", 
+                    "size": 275
+                }, 
+                {
+                    "name": "Fraxinus sp. (Esche)", 
+                    "size": 37
+                }, 
+                {
+                    "name": "Fraxinus angustifolia (Schmalbl\u00e4ttrige Esche)", 
+                    "size": 25
+                }, 
+                {
+                    "name": "Fraxinus angustifolia \"Raywood\" (Schmalbl\u00e4ttrige Purpur-Esche)", 
+                    "size": 163
+                }, 
+                {
+                    "name": "Fraxinus holotricha \"Moraine\" (Behaarte Esche)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Fraxinus excelsior (Gew\u00f6hnliche Esche)", 
+                    "size": 367
+                }, 
+                {
+                    "name": "Fraxinus pennsylvanica \"Cimmaron\" (Pennsylvanische Esche)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Fraxinus excelsior \"Jaspidea\" (Gold-Esche)", 
+                    "size": 13
+                }, 
+                {
+                    "name": "Fraxinus excelsior \"Westhofs Glorie\" (Nichtfruchtende Strassen-Esche)", 
+                    "size": 33
+                }, 
+                {
+                    "name": "Fraxinus velutina (Arizona-Esche)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Fraxinus quadrangulata (Blau-Esche)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Fraxinus holotricha (Behaarte Esche)", 
+                    "size": 14
+                }, 
+                {
+                    "name": "Fraxinus excelsior \"Diversifolia\" (Einbl\u00e4ttrige Esche)", 
+                    "size": 6
+                }, 
+                {
+                    "name": "Fraxinus pennsylvanica (Rot-Esche / Pennsylvanische Esche)", 
+                    "size": 33
+                }, 
+                {
+                    "name": "Fraxinus excelsior \"Pendula\" (H\u00e4nge-Esche)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Fraxinus ornus \"Obelisk\" (Blumen-Esche)", 
+                    "size": 21
+                }, 
+                {
+                    "name": "Fraxinus ornus \"Louise Lady\" (Blumen-Esche)", 
+                    "size": 9
+                }
+            ], 
+            "name": "Fraxinus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Lagerstroemia indica (Chinesische Kr\u00e4uselmyrthe)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Lagerstroemia"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Magnolia acuminata (Gurken-Magnolie)", 
+                    "size": 4
+                }, 
+                {
+                    "name": "Magnolia stellata (Stern-Magnolie)", 
+                    "size": 10
+                }, 
+                {
+                    "name": "Magnolia liliiflora \"Betty\" (Purpur-Magnolie)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Magnolia x loebneri \"Merrill\" (Stern-Magnolie Hybride)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Magnolia kobus (Kobushi-Magnolie)", 
+                    "size": 38
+                }, 
+                {
+                    "name": "Magnolia x loebneri (Stern-Magnolie Hybride)", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Magnolia grandiflora (Immergr\u00fcne Magnolie)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Magnolia liliiflora \"Nigra\" (Purpur-Magnolie)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Magnolia liliiflora \"Susan\" (Purpur-Magnolie)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Magnolia x brooklynensis \"Yellow Bird\" (Magnolie Hybride)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Magnolia x soulangana (Tulpen-Magnolie)", 
+                    "size": 46
+                }, 
+                {
+                    "name": "Magnolia liliiflora (Purpur-Magnolie)", 
+                    "size": 9
+                }, 
+                {
+                    "name": "Magnolia tripetala (Schirm-Magnolie)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Magnolia sieboldii (Siebold-Magnolie)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Magnolia soulangeana \"Speciosa\" (Tulpen-Magnolie)", 
+                    "size": 4
+                }, 
+                {
+                    "name": "Magnolia sp. (Magnolie)", 
+                    "size": 9
+                }
+            ], 
+            "name": "Magnolia"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Chitalpa tashkentensis (Baumoleander)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Chitalpa"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Cryptomeria japonica (Sicheltanne)", 
+                    "size": 6
+                }
+            ], 
+            "name": "Cryptomeria"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Gleditsia triacanthos (Dreidornen-Gleditschie)", 
+                    "size": 113
+                }, 
+                {
+                    "name": "Gleditsia sp. (Gleditschie)", 
+                    "size": 4
+                }, 
+                {
+                    "name": "Gleditsia triacanthos \"Sunburst\" (Gelbe Gleditschie)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Gleditsia triacanthos inermis (Dornlose Gleditschie)", 
+                    "size": 23
+                }, 
+                {
+                    "name": "Gleditsia macracantha (Grossbl\u00fctige Gleditschie)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Gleditsia triacanthos \"Skyline\" (S\u00e4ulen-Gleditschie)", 
+                    "size": 16
+                }, 
+                {
+                    "name": "Gleditsia koraiensis (Koreanische Gleditschie)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Gleditsia"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Cornus florida (Blumen-Hartriegel)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Cornus mas (Kornelkirsche)", 
+                    "size": 44
+                }, 
+                {
+                    "name": "Cornus controversa (Pagoden-Hartriegel)", 
+                    "size": 14
+                }, 
+                {
+                    "name": "Cornus alternifolia (Wechselbl\u00e4ttriger Hartriegel)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Cornus kousa (Blumen-Hartriegel)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Cornus sp. (Hartriegel)", 
+                    "size": 2
+                }
+            ], 
+            "name": "Cornus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Pterocarya rhoifolia (Japanische Fl\u00fcgelnuss)", 
+                    "size": 11
+                }, 
+                {
+                    "name": "Pterocarya stenoptera (Chinesische Fl\u00fcgelnuss)", 
+                    "size": 10
+                }, 
+                {
+                    "name": "Pterocarya rhoifolia \"Kyoto Convention\" (Japanische Fl\u00fcgelnuss)", 
+                    "size": 50
+                }, 
+                {
+                    "name": "Pterocarya fraxinifolia (Kaukasische Fl\u00fcgelnuss)", 
+                    "size": 37
+                }
+            ], 
+            "name": "Pterocarya"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Celtis australis (S\u00fcdlicher Z\u00fcrgelbaum)", 
+                    "size": 149
+                }, 
+                {
+                    "name": "Celtis occidentalis (Amerikanischer Z\u00fcrgelbaum)", 
+                    "size": 147
+                }, 
+                {
+                    "name": "Celtis sp. (Z\u00fcrgelbaum)", 
+                    "size": 4
+                }
+            ], 
+            "name": "Celtis"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Maackia amurensis (Amur-Maackia)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Maackia"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Ziziphus paliurus (Judendorn)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Ziziphus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Malus domestica (Kultur-Apfel)", 
+                    "size": 87
+                }, 
+                {
+                    "name": "Malus sylvestris (Holz-Apfel)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Malus trilobata (Dreilappiger Apfel)", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Malus sylvestris \"Resi\" (Herbstapfel)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Malus tschonoskii (Wolliger Apfel)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Malus sp. (Zierapfel)", 
+                    "size": 45
+                }
+            ], 
+            "name": "Malus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Albizia julibrissin (Seiden-Akazie)", 
+                    "size": 24
+                }
+            ], 
+            "name": "Albizia"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Juglans nigra (Schwarze Walnuss)", 
+                    "size": 106
+                }, 
+                {
+                    "name": "Juglans regia (Echte Walnuss)", 
+                    "size": 274
+                }, 
+                {
+                    "name": "Juglans ailantifolia (Japanische Walnuss)", 
+                    "size": 9
+                }, 
+                {
+                    "name": "Juglans sp. (Walnuss)", 
+                    "size": 4
+                }, 
+                {
+                    "name": "Juglans cinerea (Butternuss)", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Juglans mandshurica (Mandschurische Walnus)", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Juglans microcarpa (Felsen-Walnuss)", 
+                    "size": 4
+                }, 
+                {
+                    "name": "Juglans x intermedia \"Vilmoriniana\" (Walnuss-Hybride)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Juglans"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Styphnolobiom japonica (Japanischer Pagodenbaum)", 
+                    "size": 231
+                }, 
+                {
+                    "name": "Styphnolobiom japonica \"Regent\" (Pagodenbaum \"Regent\")", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Styphnolobiom japonica \"Pendula\" (H\u00e4nge-Pagodenbaum)", 
+                    "size": 5
+                }
+            ], 
+            "name": "Styphnolobiom"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Salix matsudana \"Tortuosa\" (Korkenzieher Peking-Weide)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Salix x sepulcralis (Trauer-Weide)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Salix pentandra (Lorbeer-Weide)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Salix alba (Silber-Weide)", 
+                    "size": 104
+                }, 
+                {
+                    "name": "Salix alba \"Tristis\" (Trauer-Weide)", 
+                    "size": 13
+                }, 
+                {
+                    "name": "Salix babylonica \"Tortuosa\" (Babylonische Trauer-Weide)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Salix sp. (Weide)", 
+                    "size": 17
+                }, 
+                {
+                    "name": "Salix x simithiana (K\u00fcbler-Weide)", 
+                    "size": 4
+                }, 
+                {
+                    "name": "Salix caprea (Sal-Weide)", 
+                    "size": 24
+                }
+            ], 
+            "name": "Salix"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Thuja plicata (Riesen-Lebensbaum)", 
+                    "size": 15
+                }, 
+                {
+                    "name": "Thuja sp. (Lebensbaum)", 
+                    "size": 7
+                }, 
+                {
+                    "name": "Thuja occidentalis (Abendl\u00e4ndischer Lebensbaum)", 
+                    "size": 13
+                }
+            ], 
+            "name": "Thuja"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Xanthocyparis nootkatensis (Nutka-Scheinzypresse)", 
+                    "size": 179
+                }, 
+                {
+                    "name": "Xanthocyparis nootkatensis \"Glauca\" (Bl\u00e4uliche Nutka-Scheinzypresse)", 
+                    "size": 4
+                }
+            ], 
+            "name": "Xanthocyparis"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Cedrus sp. (Zeder)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Cedrus deodara (Himalaya-Zeder)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Cedrus libani (Libanon-Zeder)", 
+                    "size": 11
+                }, 
+                {
+                    "name": "Cedrus atlantica \"Glauca\" (Blaue Atlas-Zeder)", 
+                    "size": 65
+                }, 
+                {
+                    "name": "Cedrus atlantica (Atlas-Zeder)", 
+                    "size": 11
+                }
+            ], 
+            "name": "Cedrus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Castanea sp. (Kastanie)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Castanea sativa (Edel-Kastanie/ Ess-Kastanie)", 
+                    "size": 40
+                }
+            ], 
+            "name": "Castanea"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Calocedrus decurrens (Kalifornische Flusszeder)", 
+                    "size": 11
+                }
+            ], 
+            "name": "Calocedrus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Sambucus nigra (Schwarzer Holunder)", 
+                    "size": 44
+                }, 
+                {
+                    "name": "Sambucus racemosa (Roter Holunder / Trauben-Holunder)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Sambucus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Pinus cembra (Arve, Zirbel-Kiefer)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Pinus parviflora (M\u00e4dchen - Kiefer)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Pinus heldreichii var. leucodermis (Schlangenhaut-Kiefer)", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Pinus parviflora \"Glauca\" (Blaue M\u00e4dchen-Kiefer)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Pinus strobus (Weymouths Kiefer)", 
+                    "size": 15
+                }, 
+                {
+                    "name": "Pinus wallichiana (Tr\u00e4nen-Kiefer)", 
+                    "size": 26
+                }, 
+                {
+                    "name": "Pinus nigra (Schwarzkiefer)", 
+                    "size": 536
+                }, 
+                {
+                    "name": "Pinus sylvestris (Wald-Kiefer)", 
+                    "size": 633
+                }, 
+                {
+                    "name": "Pinus mugo subsp. uncinata (Haken-Kiefer / Berg-Spirke)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Pinus sp. (Kiefer)", 
+                    "size": 33
+                }, 
+                {
+                    "name": "Pinus mugo subsp. uncinata (Haken-Kiefer)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Pinus mugo (Berg-Kiefer / Berg-Spirke)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Pinus banksiana (Banks-Kiefer)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Pinus rigida (Pech-Kiefer)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Pinus nigra subsp. nigra (\u00d6sterreichische Schwarz-Kiefer)", 
+                    "size": 186
+                }, 
+                {
+                    "name": "Pinus sylvestris \"Watereri\" (Wald-Kiefer)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Pinus sabiniana (Nuss-Kiefer)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Pinus peuce (Mazedonische Kiefer)", 
+                    "size": 2
+                }
+            ], 
+            "name": "Pinus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Liquidambar styraciflua (Amerikanischer Amberbaum)", 
+                    "size": 104
+                }
+            ], 
+            "name": "Liquidambar"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Hippophae rhamnoides (Sanddorn)", 
+                    "size": 2
+                }
+            ], 
+            "name": "Hippophae"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Ostrya carpinifolia (Europ\u00e4ische Hopfenbuche)", 
+                    "size": 284
+                }
+            ], 
+            "name": "Ostrya"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Gymnocladus dioicus (Amerikanischer Geweihbaum)", 
+                    "size": 38
+                }
+            ], 
+            "name": "Gymnocladus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Chamaecyparis pisifera (Scheinzypresse)", 
+                    "size": 14
+                }, 
+                {
+                    "name": "Chamaecyparis lawsoniana \"Ilona\" (Lawsons Scheinzypresse)", 
+                    "size": 4
+                }, 
+                {
+                    "name": "Chamaecyparis obtusa (Hinoki-Scheinzypresse)", 
+                    "size": 7
+                }, 
+                {
+                    "name": "Chamaecyparis lawsoniana \"Alumii\" (Blaue S\u00e4ulen-Scheinzypresse)", 
+                    "size": 12
+                }, 
+                {
+                    "name": "Chamaecyparis lawsoniana \"Gold Star\" (Lawsons Scheinzypresse)", 
+                    "size": 2
+                }
+            ], 
+            "name": "Chamaecyparis"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Maclura pomifera (Osagedorn)", 
+                    "size": 11
+                }
+            ], 
+            "name": "Maclura"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Fagus sylvatica \"Purpurea Pendula\" (H\u00e4nge-Rot-Buche)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Fagus sylvatica \"Atropunicea\" (Blut-Buche)", 
+                    "size": 7
+                }, 
+                {
+                    "name": "Fagus sp. (Buche)", 
+                    "size": 10
+                }, 
+                {
+                    "name": "Fagus grandifolia (Amerikanische Buche)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Fagus sylvatica \"Asplenifolia\" (Farnbl\u00e4ttrige Rot-Buche)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Fagus sylvatica \"Purpurea\" (Rot-Buche)", 
+                    "size": 147
+                }, 
+                {
+                    "name": "Fagus sylvatica \"Riversii\" (Blut-Buche \"Riversii\")", 
+                    "size": 4
+                }, 
+                {
+                    "name": "Fagus sylvatica \"Dawyck\" (S\u00e4ulen-Buche)", 
+                    "size": 11
+                }, 
+                {
+                    "name": "Fagus sylvatica \"Purpurea Latifolia\" (Veredelte Blut-Buche)", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Fagus sylvatica \"Pendula\" (Gr\u00fcne H\u00e4nge-Buche)", 
+                    "size": 10
+                }, 
+                {
+                    "name": "Fagus sylvatica \"Laciniata\" (Schlitzbl\u00e4ttrige Rot-Buche)", 
+                    "size": 6
+                }, 
+                {
+                    "name": "Fagus orientalis (Orient-Buche)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Fagus sylvatica (Rot-Buche)", 
+                    "size": 164
+                }
+            ], 
+            "name": "Fagus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Clerodendrum trichotomum (Losbaum)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Clerodendrum"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Quercus spec. (Eiche)", 
+                    "size": 70
+                }, 
+                {
+                    "name": "Quercus bicolor (Zweifarbige Eiche)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Quercus suber (Kork-Eiche)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Quercus robur (Stiel-Eiche)", 
+                    "size": 597
+                }, 
+                {
+                    "name": "Quercus macranthera (Persische Eiche)", 
+                    "size": 6
+                }, 
+                {
+                    "name": "Quercus cerris \"Laciniata\" (Geschlitztbl\u00e4tterige Zerr-Eiche)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Quercus castaneifolia (Kastanienbl\u00e4ttrige Eiche)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Quercus pubescens (Flaum-Eiche)", 
+                    "size": 51
+                }, 
+                {
+                    "name": "Quercus acutissima (Seidenraupen-Eiche)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Quercus ilex (Stein-Eiche)", 
+                    "size": 65
+                }, 
+                {
+                    "name": "Quercus x libanerris \"Rotterdam\" (Libanon-Hybrid-Eiche)", 
+                    "size": 6
+                }, 
+                {
+                    "name": "Quercus macrocarpa (Grossfr\u00fcchtige Eiche / Bur-Eiche)", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Quercus libani (Libanon-Eiche)", 
+                    "size": 10
+                }, 
+                {
+                    "name": "Quercus x turneri \"Pseudoturneri\" (Wintergr\u00fcne oder Turners Eiche)", 
+                    "size": 12
+                }, 
+                {
+                    "name": "Quercus robur \"Fastigiata Koster\" (Pyramiden-Eiche)", 
+                    "size": 6
+                }, 
+                {
+                    "name": "Quercus castaneifolia \"Green Spire\" (Kastanienbl\u00e4tterige Eiche)", 
+                    "size": 17
+                }, 
+                {
+                    "name": "Quercus robur \"Fastigiata\" (Pyramiden-Eiche)", 
+                    "size": 64
+                }, 
+                {
+                    "name": "Quercus rubra (Amerikanische Rot-Eiche)", 
+                    "size": 182
+                }, 
+                {
+                    "name": "Quercus imbricaria (Schindel-Eiche)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Quercus marilandica (Black Jack-Eiche)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Quercus palustris (Sumpf-Eiche)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Quercus ithaburensis var. macrolepis (Valonea-Eiche)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Quercus petraea (Trauben-Eiche)", 
+                    "size": 24
+                }, 
+                {
+                    "name": "Quercus frainetto (Ungarische Eiche)", 
+                    "size": 68
+                }, 
+                {
+                    "name": "Quercus x bebbiana (Bebbiana-Eiche)", 
+                    "size": 8
+                }, 
+                {
+                    "name": "Quercus dentata (Japanische Kaiser-Eiche)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Quercus ph\u00e9llos (Weiden-Eiche)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Quercus ilicifolia (Busch-Eiche)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Quercus coccinea (Scharlach-Eiche)", 
+                    "size": 12
+                }, 
+                {
+                    "name": "Quercus dentata \"Pinnatifida\" (Japanische Kaiser-Eiche)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Quercus pyrenaica (Pyren\u00e4en-Eiche)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Quercus pontica (Pontische Eiche)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Quercus cerris (Zerr-Eiche)", 
+                    "size": 147
+                }
+            ], 
+            "name": "Quercus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Mespilus germanica (Echte Mispel)", 
+                    "size": 2
+                }
+            ], 
+            "name": "Mespilus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Sequoiadendron giganteum (Mammutbaum / Wellingtonia)", 
+                    "size": 20
+                }
+            ], 
+            "name": "Sequoiadendron"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Acer platanoides \"Cleveland\" (Kegelf\u00f6rmiger Spitz-Ahorn)", 
+                    "size": 174
+                }, 
+                {
+                    "name": "Acer monspessulanum (Felsen-Ahorn / Burgen-Ahorn)", 
+                    "size": 77
+                }, 
+                {
+                    "name": "Acer griseum (Zimt Ahorn)", 
+                    "size": 17
+                }, 
+                {
+                    "name": "Acer triflorum (Dreibl\u00fctiger Ahorn)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Acer saccharinum \"Wieri\" (Schlitzbl\u00e4ttriger Silbera-Ahorn)", 
+                    "size": 27
+                }, 
+                {
+                    "name": "Acer cappadocicum \"Rubrum\" (Kolchischer Ahorn)", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Acer sp. (Ahorn)", 
+                    "size": 38
+                }, 
+                {
+                    "name": "Acer heldreichii ssp. trautvetteri (Kaukasischer Ahorn)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Acer saccharum (Zucker-Ahorn)", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Acer pseudoplatanus \"Leopoldii\" (Bergahorn \"Leopoldii\")", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Acer Buergerianum (Dreiz\u00e4hniger Ahorn)", 
+                    "size": 7
+                }, 
+                {
+                    "name": "Acer heldreichii ssp heldreichii (Griechischer Ahorn)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Acer campestre \"Elsrijk\" (Spanischer Feld-Ahorn)", 
+                    "size": 159
+                }, 
+                {
+                    "name": "Acer pseudoplatanus (Berg-Ahorn)", 
+                    "size": 625
+                }, 
+                {
+                    "name": "Acer rufinerve (Rotnerviger Ahorn)", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Acer saccharinum (Silber-Ahorn)", 
+                    "size": 209
+                }, 
+                {
+                    "name": "Acer davidii (Davids-Ahorn)", 
+                    "size": 8
+                }, 
+                {
+                    "name": "Acer platanoides \"Schwedleri\" (Hellroter Spitz-Ahorn)", 
+                    "size": 11
+                }, 
+                {
+                    "name": "Acer pseudoplatanus \"Rotterdam\" (Breitkegelf\u00f6rmiger Berg-Ahorn)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Acer palmatum \"Dissectum\" (F\u00e4cher-Ahorn geschlitzt)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Acer sterculiaceum (Himalaya Ahorn)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Acer velutinum var. vanvolxemii (Samt-Ahorn)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Acer platanoides \"Globosum\" (Kugel-Ahorn)", 
+                    "size": 246
+                }, 
+                {
+                    "name": "Acer maximowiczianum (Nikko-Ahorn)", 
+                    "size": 4
+                }, 
+                {
+                    "name": "Acer mono ssp mono var mono (Nippon-Ahorn)", 
+                    "size": 4
+                }, 
+                {
+                    "name": "Acer negundo (Eschen-Ahorn)", 
+                    "size": 39
+                }, 
+                {
+                    "name": "Acer x freemanii \"Autumn Blaze\" (Herbst-Flammen-Ahorn)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Acer velutinum (Samt-Ahorn)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Acer tataricum ssp ginnala", 
+                    "size": 15
+                }, 
+                {
+                    "name": "Acer saccharum ssp  \"grandidentatum\" (Zucker-Ahorn)", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Acer platanoides \"Emerald Queen\" (Spitz-Ahorn \"Emerald Queen\")", 
+                    "size": 213
+                }, 
+                {
+                    "name": "Acer capillipes (Roter Schlangenhaut-Ahorn)", 
+                    "size": 10
+                }, 
+                {
+                    "name": "Acer saccharum \"Schneckii\" (Zucker-Ahorn)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Acer platanoides \"rubrum\" (Spitz-Ahorn \"rubrum\")", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Acer platanoides \"Columnare\" (S\u00e4ulenf\u00f6rmiger Spitz-Ahorn)", 
+                    "size": 119
+                }, 
+                {
+                    "name": "Acer pseudoplatanus \"Bruchem\"", 
+                    "size": 9
+                }, 
+                {
+                    "name": "Acer tataricum spp ginnala (Feuer-Ahorn)", 
+                    "size": 8
+                }, 
+                {
+                    "name": "Acer cissifolium (Cissusbl\u00e4ttriger Ahorn)", 
+                    "size": 13
+                }, 
+                {
+                    "name": "Acer x zoeschense (Zoeschener Ahorn)", 
+                    "size": 21
+                }, 
+                {
+                    "name": "Acer rubrum (Rot-Ahorn)", 
+                    "size": 23
+                }, 
+                {
+                    "name": "Acer pseudoplatanus \"Purpureum\"", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Acer platanoides \"Cucculatum\" (Spitz-Ahorn Cucculatum)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Acer campestre (Feld-Ahorn)", 
+                    "size": 860
+                }, 
+                {
+                    "name": "Acer truncatum (Chinesischer Spitz-Ahorn)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Acer platanoides (Spitz-Ahorn)", 
+                    "size": 2184
+                }, 
+                {
+                    "name": "Acer pseudoplatanus \"Rubrum\" (Roter Berg-Ahorn)", 
+                    "size": 4
+                }, 
+                {
+                    "name": "Acer platanoides \"Deborah\" (Spitz-Ahorn \"Deborah\")", 
+                    "size": 83
+                }, 
+                {
+                    "name": "Acer platanoides \"Reitenbachii\" (Spitz-Ahorn \"Reitanbachii\")", 
+                    "size": 114
+                }, 
+                {
+                    "name": "Acer negundo ssp californicum (Kalifornischer Eschen-Ahorn)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Acer tataricum (Tatarischer Ahorn)", 
+                    "size": 6
+                }, 
+                {
+                    "name": "Acer palmatum (F\u00e4cher-Ahorn)", 
+                    "size": 60
+                }, 
+                {
+                    "name": "Acer platanoides \"Crimson King\" (Spitz-Ahorn \"Crimson King\")", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Acer japonicum \"Acontifolium\" (Japanischer Ahorn)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Acer hyrcanum (Gr\u00fcner Balkan-Ahorn)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Acer caesium (Blaugr\u00fcner Ahorn)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Acer davidii ssp. grosseri (Grossers Schlangenhautahorn)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Acer circinatum (Wein-Ahorn)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Acer japonicum (Japanischer Ahorn)", 
+                    "size": 7
+                }, 
+                {
+                    "name": "Acer pseudoplatanus \"Trautvetteri\" (Berg-Ahorn \"Trautvetteri\")", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Acer carpinifolia (Hainbuchen-Ahorn)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Acer cappadocicum ssp. lobelii (Italienischer Ahorn)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Acer platanoides \"K\u00f6nigs Lage\" (Spitz-Ahorn \"K\u00f6nigs Lage\")", 
+                    "size": 15
+                }, 
+                {
+                    "name": "Acer platanoides \"Olmsted\" (S\u00e4ulenf\u00f6rmiger Spitz-Ahorn)", 
+                    "size": 180
+                }, 
+                {
+                    "name": "Acer pseudoplatanus \"Negenia\" (Bergahorn \"Negenia\")", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Acer cappadocicum (Kolchischer Ahorn)", 
+                    "size": 114
+                }, 
+                {
+                    "name": "Acer opalus (Schneeballbl\u00e4ttriger Ahorn)", 
+                    "size": 32
+                }
+            ], 
+            "name": "Acer"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Syringa sp. (Flieder)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Syringa reticulata (Flieder)", 
+                    "size": 4
+                }
+            ], 
+            "name": "Syringa"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Hibiscus syriacus (Echter Rosen-Eibisch)", 
+                    "size": 4
+                }
+            ], 
+            "name": "Hibiscus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Cydonia oblonga (Echte Quitte)", 
+                    "size": 16
+                }, 
+                {
+                    "name": "Cydonia oblonga \"Bereczki\" (Birnenquitte)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Cydonia"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Ailanthus altissima (G\u00f6tterbaum)", 
+                    "size": 116
+                }, 
+                {
+                    "name": "Ailanthus sp. (G\u00f6tterbaum)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Ailanthus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Cercidiphyllum japonicum (Kuchenbaum/ Katsurabaum)", 
+                    "size": 20
+                }
+            ], 
+            "name": "Cercidiphyllum"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Liriodendron tulipifera (Amerikanischer Tulpenbaum)", 
+                    "size": 155
+                }, 
+                {
+                    "name": "Liriodendron tulipifera \"Fastigiatum\" (S\u00e4ulen-Tulpenbaum)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Liriodendron sp. (Tulpenbaum)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Liriodendron chinense (Chinesischer Tulpenbaum)", 
+                    "size": 4
+                }
+            ], 
+            "name": "Liriodendron"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Eucommia ulmoides (Guttaperchabaum)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Eucommia"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Xanthoceras sorbifolium (Gelbhorn)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Xanthoceras"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Carpinus tschonoskii (Tschonoskis Hainbuche)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Carpinus betulus \"Frans Fontaine\" (S\u00e4ulen-Hainbuche)", 
+                    "size": 122
+                }, 
+                {
+                    "name": "Carpinus betulus (Gew\u00f6hnliche Hain- oder Weissbuche)", 
+                    "size": 995
+                }, 
+                {
+                    "name": "Carpinus sp. (Hain- oder Weissbuche)", 
+                    "size": 4
+                }, 
+                {
+                    "name": "Carpinus betulus \"Fastigiata\" (S\u00e4ulen-Hainbuche)", 
+                    "size": 99
+                }
+            ], 
+            "name": "Carpinus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Pyrus communis \"Beech Hill\" (Kultur-Birne)", 
+                    "size": 44
+                }, 
+                {
+                    "name": "Pyrus calleryana \"Chanticleer\" (Chinesische Birne)", 
+                    "size": 6
+                }, 
+                {
+                    "name": "Pyrus calleryana (Chinesische Birne)", 
+                    "size": 119
+                }, 
+                {
+                    "name": "Pyrus sp. (Birne)", 
+                    "size": 21
+                }, 
+                {
+                    "name": "Pyrus communis (Kultur-Birne)", 
+                    "size": 26
+                }, 
+                {
+                    "name": "Pyrus salicifolia (Weidenbl\u00e4ttrige Birne)", 
+                    "size": 2
+                }
+            ], 
+            "name": "Pyrus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Aesculus pavia (Echte Pavie)", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Aesculus turbinata (Japanische Rosskastanie)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Aesculus flava (Gelbe Rosskastanie)", 
+                    "size": 54
+                }, 
+                {
+                    "name": "Aesculus hippocastanum (Gemeine Rosskastanie)", 
+                    "size": 2361
+                }, 
+                {
+                    "name": "Aesculus parviflora (Strauch - Rosskastanie)", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Aesculus x carnea \"Briotii\" (Scharlach-Rosskastanie)", 
+                    "size": 67
+                }, 
+                {
+                    "name": "Aesculus x carnea (Rotbl\u00fchende  Rosskastanie)", 
+                    "size": 176
+                }, 
+                {
+                    "name": "Aesculus sp. (Rosskastanie)", 
+                    "size": 20
+                }, 
+                {
+                    "name": "Aesculus hippocastanum \"Baumannii\" (Gef\u00fclltbl\u00fchende Rosskastanie)", 
+                    "size": 682
+                }, 
+                {
+                    "name": "Aesculus x hybrida (Allegheny-Rosskastanie)", 
+                    "size": 10
+                }
+            ], 
+            "name": "Aesculus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Alnus cordata (Italienische herzbl\u00e4ttrige Erle)", 
+                    "size": 82
+                }, 
+                {
+                    "name": "Alnus x spaethii (Spaeths Erle)", 
+                    "size": 60
+                }, 
+                {
+                    "name": "Alnus incana (Grau- oder Weiss-Erle)", 
+                    "size": 48
+                }, 
+                {
+                    "name": "Alnus incana \"Laciniata\" (Grau-Erle)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Alnus glutinosa (Schwarz-Erle)", 
+                    "size": 135
+                }, 
+                {
+                    "name": "Alnus sp. (Erle)", 
+                    "size": 7
+                }
+            ], 
+            "name": "Alnus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Populus tremula (Zitter-Pappel, Espe)", 
+                    "size": 13
+                }, 
+                {
+                    "name": "Populus nigra (Schwarz-Pappel)", 
+                    "size": 60
+                }, 
+                {
+                    "name": "Populus alba (Silber-Pappel)", 
+                    "size": 43
+                }, 
+                {
+                    "name": "Populus sp. (Pappel)", 
+                    "size": 49
+                }, 
+                {
+                    "name": "Populus nigra \"Italica\" (Pyramiden Pappel)", 
+                    "size": 188
+                }, 
+                {
+                    "name": "Populus x berolinensis (Berliner Pappel)", 
+                    "size": 8
+                }, 
+                {
+                    "name": "Populus x canadensis (Kanada-Pappel)", 
+                    "size": 207
+                }, 
+                {
+                    "name": "Populus simonii (Simons Pappel)", 
+                    "size": 85
+                }
+            ], 
+            "name": "Populus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Platanus occidentalis (Nordamerikanische Platane)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Platanus x hispanica (Gew\u00f6hnliche Platane)", 
+                    "size": 2296
+                }, 
+                {
+                    "name": "Platanus orientalis (Morgenl\u00e4ndische  Platane / Minaret)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Platanus PLATANOR \"Vallis Clausa\" (Platane)", 
+                    "size": 9
+                }, 
+                {
+                    "name": "Platanus sp. (Platane)", 
+                    "size": 12
+                }, 
+                {
+                    "name": "Platanus x hispanica \"Tremonia\" (Tremonia-Platane)", 
+                    "size": 6
+                }
+            ], 
+            "name": "Platanus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Picea likiangensis (Likiang-Fichte)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Picea abies \"Nidiformis\" (Nest-Fichte)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Picea abies (Gew\u00f6hnliche Fichte)", 
+                    "size": 113
+                }, 
+                {
+                    "name": "Picea breweriana (Siskiyou-Fichte, M\u00e4hnen-Fichte)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Picea pungens \"Glauca\" (Blau-Fichte)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Picea omorika (Serbische Fichte)", 
+                    "size": 44
+                }, 
+                {
+                    "name": "Picea pungens (Stech-Fichte)", 
+                    "size": 23
+                }, 
+                {
+                    "name": "Picea abies \"Ohlendorfii\" (Kegel-Fichte)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Picea sp. (Fichte)", 
+                    "size": 4
+                }, 
+                {
+                    "name": "Picea orientalis (Kaukasus-Fichte)", 
+                    "size": 19
+                }
+            ], 
+            "name": "Picea"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Sequoia sempervirens (K\u00fcstensequoia / Redwood)", 
+                    "size": 4
+                }
+            ], 
+            "name": "Sequoia"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Asimina triloba (Dreilppige Papau, Indianer Banane)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Asimina"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Ilex aquifolium (Gew\u00f6hnliche Stechpalme)", 
+                    "size": 69
+                }, 
+                {
+                    "name": "Ilex sp. (Stechpalm)", 
+                    "size": 5
+                }
+            ], 
+            "name": "Ilex"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Arbutus unedo (Westlicher Erdbeerbaum)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Arbutus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Broussonetia papyrifera (Papiermaulbeerbaum)", 
+                    "size": 10
+                }
+            ], 
+            "name": "Broussonetia"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Metasequoia glyptostroboides (Urweltmammutbaum)", 
+                    "size": 25
+                }
+            ], 
+            "name": "Metasequoia"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Abies procera \"Glauca\" (Amerikanische Blau-Tanne)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Abies cephalonica (Griechische Tanne)", 
+                    "size": 8
+                }, 
+                {
+                    "name": "Abies koreana (Korea-Tanne)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Abies alba (Weiss-Tanne)", 
+                    "size": 7
+                }, 
+                {
+                    "name": "Abies concolor (Colorade-Tanne)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Abies spec. (Tanne)", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Abies pinsapo (Spanische Tanne)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Abies nordmanniana ssp. Nordmanniana (Nordmanns-Tanne)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Abies firma (Moni-Tanne)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Abies"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Phellodendron amurense (Amur-Korkbaum)", 
+                    "size": 4
+                }
+            ], 
+            "name": "Phellodendron"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Taxodium distichum (Sumpfzypresse)", 
+                    "size": 10
+                }, 
+                {
+                    "name": "Taxodium distichum var. Imbricatum (Aufsteigende Sumpfzypresse)", 
+                    "size": 6
+                }
+            ], 
+            "name": "Taxodium"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Amelanchier lamarckii (Kupfer-Felsenbirne)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Amelanchier arborea \"Robin Hill\" (Schnee-Felsenbirne)", 
+                    "size": 20
+                }
+            ], 
+            "name": "Amelanchier"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Carya illinoinensis (Pekannuss)", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Carya cordiformis (Bitternuss)", 
+                    "size": 7
+                }, 
+                {
+                    "name": "Carya ovata (Schuppenrinden-Hickorynuss)", 
+                    "size": 10
+                }, 
+                {
+                    "name": "Carya laciniosa (K\u00f6nigsnuss)", 
+                    "size": 6
+                }, 
+                {
+                    "name": "Carya tomentosa (Spottnuss-Hickory)", 
+                    "size": 2
+                }
+            ], 
+            "name": "Carya"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Nyssa sylvatica (Wald-Tupelobaum)", 
+                    "size": 7
+                }
+            ], 
+            "name": "Nyssa"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Tilia tomentosa \"Brabant\" (Ungarische Silber-Linde)", 
+                    "size": 42
+                }, 
+                {
+                    "name": "Tilia henryana (Henrys Linde)", 
+                    "size": 7
+                }, 
+                {
+                    "name": "Tilia sp. (Linde)", 
+                    "size": 20
+                }, 
+                {
+                    "name": "Tilia mongolica (Mongolische Linde)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Tilia americana (Amerikanische Linde)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Tilia tomentosa \"Pendula\" (Ungarische Silber-Linde)", 
+                    "size": 32
+                }, 
+                {
+                    "name": "Tilia cordata \"Greenspire\" (Winter-Linde, Stadt-Linde)", 
+                    "size": 75
+                }, 
+                {
+                    "name": "Tilia x euchlora (Krim-Linde)", 
+                    "size": 3816
+                }, 
+                {
+                    "name": "Tilia tomentosa \"Petiolaris\" (H\u00e4nge-Silber-Linde)", 
+                    "size": 16
+                }, 
+                {
+                    "name": "Tilia x vulgaris \"Pallida\" (Holl\u00e4ndische Kaiserlinde)", 
+                    "size": 36
+                }, 
+                {
+                    "name": "Tilia tomentosa (Ungarische Silber-Linde)", 
+                    "size": 328
+                }, 
+                {
+                    "name": "Tilia platyphyllos (Sommer-Linde)", 
+                    "size": 298
+                }, 
+                {
+                    "name": "Tilia cordata (Winter-Linde)", 
+                    "size": 836
+                }, 
+                {
+                    "name": "Tilia x vulgaris (Holl\u00e4ndische Linde)", 
+                    "size": 173
+                }
+            ], 
+            "name": "Tilia"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Elaeagnus angustifolia (Schmalbl\u00e4ttrige Oelweide)", 
+                    "size": 2
+                }
+            ], 
+            "name": "Elaeagnus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Pseudotsuga menziesii \"Glauca\" (Blaue Douglasie)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Pseudotsuga"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Toona sinensis (Chinesischer Surenbaum)", 
+                    "size": 5
+                }
+            ], 
+            "name": "Toona"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Koelreuteria paniculata \"Fastigiata\" (Gold-Blasenbaum)", 
+                    "size": 11
+                }, 
+                {
+                    "name": "Koelreuteria sp. (Rispige Blasenesche)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Koelreuteria paniculata (Blasenbaum / Blasenesche)", 
+                    "size": 59
+                }
+            ], 
+            "name": "Koelreuteria"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Laburnum spec. (Goldregen)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Laburnum anagyroides (Gew\u00f6hnlicher Goldregen)", 
+                    "size": 2
+                }
+            ], 
+            "name": "Laburnum"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Buxus sempervirens \"Rotundifolia\" (Buchsbaum)", 
+                    "size": 4
+                }, 
+                {
+                    "name": "Buxus sempervirens var. arborescens (Buchsbaum)", 
+                    "size": 8
+                }, 
+                {
+                    "name": "Buxus sempervirens (Buchsbaum)", 
+                    "size": 2
+                }
+            ], 
+            "name": "Buxus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Betula utilis (Himalaya-Birke)", 
+                    "size": 43
+                }, 
+                {
+                    "name": "Betula papyrifera (Papier-Birke)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Betula ermanii (Gold-Birke)", 
+                    "size": 8
+                }, 
+                {
+                    "name": "Betula pendula (H\u00e4ngebirke / Weiss- oder Sandbirke)", 
+                    "size": 838
+                }, 
+                {
+                    "name": "Betula albosinensis (Rote China-Birke)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Betula platyphylla (Mandschurische Birke)", 
+                    "size": 5
+                }, 
+                {
+                    "name": "Betula sp. (Birke)", 
+                    "size": 36
+                }, 
+                {
+                    "name": "Betula pendula \"Fastigiata\" (S\u00e4ulenbirke)", 
+                    "size": 26
+                }, 
+                {
+                    "name": "Betula nigra (Schwarz-Birke)", 
+                    "size": 15
+                }, 
+                {
+                    "name": "Betula pubescens (Moor-Birke)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Betula utilis var. jacquemontii (Weissrindige Himalaja Birke)", 
+                    "size": 7
+                }, 
+                {
+                    "name": "Betula pendula \"Tristis\" (H\u00e4nge-Birke)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Betula pendula \"Youngii\" (Trauer-Birke)", 
+                    "size": 4
+                }
+            ], 
+            "name": "Betula"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Davidia involucrata (Taschentuchbaum)", 
+                    "size": 4
+                }
+            ], 
+            "name": "Davidia"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Prunus  sp. (Zier-Kirsche)", 
+                    "size": 9
+                }, 
+                {
+                    "name": "Prunus persica (Pfirsich)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Prunus cerasifera \"Nigra\" (Blut- oder Kirsch-Pflaume)", 
+                    "size": 47
+                }, 
+                {
+                    "name": "Prunus domestica (Pflaume/ Zwetschgen)", 
+                    "size": 42
+                }, 
+                {
+                    "name": "Prunus sargentii \"Rancho\" (Berg-Kirsche)", 
+                    "size": 8
+                }, 
+                {
+                    "name": "Prunus cerasifera (Blut- oder Kirsch-Pflaume)", 
+                    "size": 156
+                }, 
+                {
+                    "name": "Prunus padus \"Colorata\" (Gemeine Trauben-Kirsche)", 
+                    "size": 11
+                }, 
+                {
+                    "name": "Prunus x eminens \"Umraculifera\" (Kugel-Steppenkirsche)", 
+                    "size": 18
+                }, 
+                {
+                    "name": "Prunus sargentii (Kirsche / Sachalin-Kirsche)", 
+                    "size": 35
+                }, 
+                {
+                    "name": "Prunus armeniaca (Aprikose)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Prunus serrulata \"Taihaku\" (Bl\u00fcten-Kirsche)", 
+                    "size": 3
+                }, 
+                {
+                    "name": "Prunus mahaleb (Stein-Weichsel)", 
+                    "size": 52
+                }, 
+                {
+                    "name": "Prunus \"Accolade\" (Fr\u00fche Zier-Kirsche)", 
+                    "size": 36
+                }, 
+                {
+                    "name": "Prunus serotina (Sp\u00e4te Traubenkirsche)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Prunus serrulata (Japanische Bl\u00fcten-Kirsche)", 
+                    "size": 60
+                }, 
+                {
+                    "name": "Prunus x hillieri \"Spire\" (Hilliers Kirsche)", 
+                    "size": 10
+                }, 
+                {
+                    "name": "Prunus serrulata \"Amanogawa\" (Japanische Bl\u00fcten-Kirsche)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Prunus spinosa (Schwarzdorn)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Prunus cerasus (Sauer-Kirsche / Weichsel)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Prunus serrula (Mahagoni-Kirsche / Tibetische Kirsche)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Prunus lusitanica (Portugiesische Lorbeerkirsche)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Prunus avium (Vogel-Kirsche)", 
+                    "size": 199
+                }, 
+                {
+                    "name": "Prunus x schmittii (Schmitts Kirsche)", 
+                    "size": 17
+                }, 
+                {
+                    "name": "Prunus cerasifera \"Woodii\" (Blut- oder Kirsch-Pflaume)", 
+                    "size": 58
+                }, 
+                {
+                    "name": "Prunus sp. (Prunus-Art)", 
+                    "size": 17
+                }, 
+                {
+                    "name": "Prunus padus (Traubenkirsche)", 
+                    "size": 46
+                }, 
+                {
+                    "name": "Prunus serrulata \"Kanzan\" (Japanische Nelken-Kirsche)", 
+                    "size": 67
+                }, 
+                {
+                    "name": "Prunus serrulata \"Shirofugen\" (Weisse Grannen-Kirsche)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Prunus serrulata \"Pink Perfektion\" (Hellrosa Nelken-Kirsche)", 
+                    "size": 42
+                }, 
+                {
+                    "name": "Prunus subhirtella \"Autumnalis\" (Weisse Winter-Kirsche, Higan-Kirsche)", 
+                    "size": 40
+                }, 
+                {
+                    "name": "Prunus persica \"cv.\" (Zwerg-Pfirsich)", 
+                    "size": 1
+                }, 
+                {
+                    "name": "Prunus avium \"Plena\" (Gef\u00fcllt bl\u00fchende Vogel-Kirsche)", 
+                    "size": 80
+                }
+            ], 
+            "name": "Prunus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Thujopsis dolabrata (Hiba-Lebensbaum)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Thujopsis"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Paulownia tomentosa (Chinesischer Blauglockenbaum)", 
+                    "size": 130
+                }
+            ], 
+            "name": "Paulownia"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Torreya californica (Kalifornische Nusseibe)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Torreya"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Larix kaempferi (Japanische L\u00e4rche)", 
+                    "size": 8
+                }, 
+                {
+                    "name": "Larix decidua (Europ\u00e4ische L\u00e4rche)", 
+                    "size": 92
+                }
+            ], 
+            "name": "Larix"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Trachycarpus fortunei (Chinesische Hanfpalme)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Trachycarpus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Catalpa bignonioides (Gew\u00f6hnlicher Trompetenbaum)", 
+                    "size": 108
+                }, 
+                {
+                    "name": "Catalpa ovata (Trompetenbaum)", 
+                    "size": 24
+                }, 
+                {
+                    "name": "Catalpa sp. (Trompetenbaum)", 
+                    "size": 3
+                }
+            ], 
+            "name": "Catalpa"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Ginkgo biloba (M\u00e4dchenhaarbaum / Ginkgo)", 
+                    "size": 319
+                }
+            ], 
+            "name": "Ginkgo"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Baumart (noch zu bestimmen)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Baumart"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Platycladus orientalis (Morgenl\u00e4ndischer Lebensbaum)", 
+                    "size": 6
+                }
+            ], 
+            "name": "Platycladus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Ptelea trifoliata (Kleeulme / Dreibl\u00e4ttriger Lederstrauch)", 
+                    "size": 3
+                }
+            ], 
+            "name": "Ptelea"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Cercis siliquastrum (Gew\u00f6hnlicher Judasbaum)", 
+                    "size": 100
+                }
+            ], 
+            "name": "Cercis"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Tetradium daniellii (Samthaarige Stinkesche)", 
+                    "size": 7
+                }
+            ], 
+            "name": "Tetradium"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Parrotia persica (Eisenholzbaum)", 
+                    "size": 165
+                }
+            ], 
+            "name": "Parrotia"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Diospyros virginiana (Persimone)", 
+                    "size": 2
+                }, 
+                {
+                    "name": "Diospyros lotus (Lotuspflaume)", 
+                    "size": 3
+                }
+            ], 
+            "name": "Diospyros"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Platycarya strobilacea (Zapfennuss)", 
+                    "size": 1
+                }
+            ], 
+            "name": "Platycarya"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Hovenia dulcis (Japanischer Rosinenbaum)", 
+                    "size": 3
+                }
+            ], 
+            "name": "Hovenia"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Osmanthus heterophyllus (Stachelbl\u00e4ttrige Duftbl\u00fcte)", 
+                    "size": 3
+                }
+            ], 
+            "name": "Osmanthus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Juniperus virginiana (Virginischer Wacholder)", 
+                    "size": 3
+                }
+            ], 
+            "name": "Juniperus"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Sciadopitys verticillata (Japanische Schirmtanne)", 
+                    "size": 2
+                }
+            ], 
+            "name": "Sciadopitys"
+        }, 
+        {
+            "children": [
+                {
+                    "name": "Cladrastis lutea (Kentucky-Gelbholz)", 
+                    "size": 32
+                }
+            ], 
+            "name": "Cladrastis"
+        }
+    ], 
+    "name": "Gattung"
+}

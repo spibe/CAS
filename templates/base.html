@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Prototyp CAS Projekt</title>
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="static/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="static/css/skeleton.css">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+
+	
+</head>
+
+<body>
+<header class="page header">
+	<div>
+	<h6> Stadtgärtnerei: Kennzahlen aus den Katastern: Prototyp </h6>
+	</div>
+</header>
+
+<div class="container">
+	<div class="metanav">
+		<div class="row">
+		<nav>
+			<ul id="layout-links">
+			<div class="two columns"><li><a href="{{ url_for('go_home') }}">Home</a></li> </div>
+			<div class="two columns"><li><a href="{{ url_for('show_grafiken') }}">Grafiken</a></li></div>
+			<div class="two columns"><li><a href="{{ url_for('show_kennzahlen') }}">Kennzahlen</a></li></div>
+			<div class="two columns"><li> <a href="{{ url_for('show_d3') }}">show d3</a></li></div>
+			<div class="two columns"><li> <a href="{{ url_for('show_baumarten_bubble') }}">BUBBLE</a></li></div>
+			<div class="two columns hidden"><li> <a href="{{ url_for('to_do_admin') }}">Admin</a></li></div>
+			<div class="two columns"><li> <a href="{{ url_for('get_work_view') }}"> Zeiterfassung </a></li></div>
+			</ul>
+		</nav>
+		</div>
+
+	</div>
+
+{% block body %}
+
+
+{% endblock %}
+
+
+</div>
+
+
+
+
+
+
+</body>
+
+
+
+<footer class="page footer">
+	<div id="foot">
+	Mein Footer
+	</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"> </script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.13/d3.min.js"></script>
+	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+
+	<script type="text/javascript" src="static/js/show_d3.js"></script>
+	<script type="text/javascript" src="static/js/bubble_d3.js"></script>
+	<script type="text/javascript" src="static/js/lineplot_d3.js"></script>
+	<script type="text/javascript" src="static/js/arbeitszeit.js"></script>
+
+<!--	
+<script type="text/javascript" src="static/js/jsonloads.js"></script>
+	<script src="http://dimplejs.org/dist/dimple.v2.1.6.min.js"> </script>
+
+
+	<script type="text/javascript" src="static/js/script1.js"></script>	<script type="text/javascript" src="js/script2.js"></script> -->
+<!--	<script type="text/javascript" src="static/js/script3.js"></script> -->
+
+
+</footer>
+
+</html>

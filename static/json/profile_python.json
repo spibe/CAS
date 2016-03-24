@@ -1,0 +1,389 @@
+{
+
+    "children": [
+        {
+            "name": "1 Rasen", 
+            "children": [
+                {
+                    "flaeche": 333527.0, 
+                    "name": "11.2 Gebrauchsrasen Grossfm", 
+                    "size": 275
+                }, 
+                {
+                    "flaeche": 31934.0, 
+                    "name": "11.7 Gebrauchsrasen Kleinfm Fh", 
+                    "size": 910
+                }, 
+                {
+                    "flaeche": 0, 
+                    "name": "12.4 Wiese beweidet (inklusive Beweidung)", 
+                    "size": 0
+                }, 
+                {
+                    "flaeche": 48639.0, 
+                    "name": "11.3 Rasen Schulsport", 
+                    "size": 10
+                }, 
+                {
+                    "flaeche": 19113.0, 
+                    "name": "11.5 Blumenrasen Kleinfm", 
+                    "size": 232
+                }, 
+                {
+                    "flaeche": 77818.0, 
+                    "name": "12.3 Blumenwiese Grossfm Fh", 
+                    "size": 264
+                }, 
+                {
+                    "flaeche": 12321.0, 
+                    "name": "11.4 Strapazier- / Sportrasen Grossfm", 
+                    "size": 2
+                }, 
+                {
+                    "flaeche": 115221.0, 
+                    "name": "11.1 Gebrauchsrasen Kleinfm", 
+                    "size": 772
+                }, 
+                {
+                    "flaeche": 169298.0, 
+                    "name": "12.2 Blumenwiese Grossfm", 
+                    "size": 163
+                }, 
+                {
+                    "flaeche": 135998.0, 
+                    "name": "12.1 Blumenwiese Kleinfm / Sense", 
+                    "size": 1019
+                }, 
+                {
+                    "flaeche": 20211.0, 
+                    "name": "11.6 Blumenrasen Grossfm", 
+                    "size": 45
+                }
+            ]
+        }, 
+        {
+            "name": "2 Bepflanzung", 
+            "children": [
+                {
+                    "flaeche": 20568.0, 
+                    "name": "23.4 Geh\u00f6lze mit Wiese (Lockerbestand)", 
+                    "size": 92
+                }, 
+                {
+                    "flaeche": 349.0, 
+                    "name": "21.4 Wechselflorrabatte mit Winterbepflanzung", 
+                    "size": 55
+                }, 
+                {
+                    "flaeche": 968.0, 
+                    "name": "21.2 Beetrosen", 
+                    "size": 64
+                }, 
+                {
+                    "flaeche": 76208.0, 
+                    "name": "21.5 Grabbepflanzung, Wechsel und Dauer", 
+                    "size": 1813
+                }, 
+                {
+                    "flaeche": 997.0, 
+                    "name": "21.1 Moorbeetbepflanzung", 
+                    "size": 13
+                }, 
+                {
+                    "flaeche": 13514.0, 
+                    "name": "21.7 Stauden, Ruderalfl\u00e4chen", 
+                    "size": 81
+                }, 
+                {
+                    "flaeche": 20575.0, 
+                    "name": "22.2 Formhecke H\u00f6he mittel", 
+                    "size": 817
+                }, 
+                {
+                    "flaeche": 24996.0, 
+                    "name": "23.3 Bodendecker", 
+                    "size": 548
+                }, 
+                {
+                    "flaeche": 8706.0, 
+                    "name": "23.6 Bodendecker Fh", 
+                    "size": 436
+                }, 
+                {
+                    "flaeche": 95294.0, 
+                    "name": "23.2 Geh\u00f6lze mit Bodendecker", 
+                    "size": 1004
+                }, 
+                {
+                    "flaeche": 170380.0, 
+                    "name": "23.5 Parkwald (Wald)", 
+                    "size": 187
+                }, 
+                {
+                    "flaeche": 763.0, 
+                    "name": "24.2 Trogbepflanzung fest", 
+                    "size": 320
+                }, 
+                {
+                    "flaeche": 214.0, 
+                    "name": "21.8 Beet, -Prachtstauden", 
+                    "size": 6
+                }, 
+                {
+                    "flaeche": 17676.0, 
+                    "name": "23.7 Geh\u00f6lze mit Bodendecker Fh", 
+                    "size": 322
+                }, 
+                {
+                    "flaeche": 2155.0, 
+                    "name": "22.1 Formhecke H\u00f6he nieder", 
+                    "size": 200
+                }, 
+                {
+                    "flaeche": 14312.0, 
+                    "name": "22.4 Wildhecke", 
+                    "size": 101
+                }, 
+                {
+                    "flaeche": 8804.0, 
+                    "name": "22.3 Formhecke H\u00f6he hoch", 
+                    "size": 266
+                }, 
+                {
+                    "flaeche": 911.0, 
+                    "name": "21.3 Wechselflorrabatte", 
+                    "size": 38
+                }, 
+                {
+                    "flaeche": 10617.0, 
+                    "name": "23.1 Geh\u00f6lze, fl\u00e4chig", 
+                    "size": 219
+                }, 
+                {
+                    "flaeche": 6044.0, 
+                    "name": "21.6 Staudenmischpflanzung", 
+                    "size": 263
+                }, 
+                {
+                    "flaeche": 23900.0, 
+                    "name": "24.1 Dachbegr\u00fcnung, extensiv", 
+                    "size": 46
+                }
+            ]
+        }, 
+        {
+            "name": "3 Bel\u00e4ge", 
+            "children": [
+                {
+                    "flaeche": 1984.0, 
+                    "name": "33.3 Verbund-/Betonsteine", 
+                    "size": 31
+                }, 
+                {
+                    "flaeche": 5338.0, 
+                    "name": "31.1 Natursteinpfl\u00e4sterung, Sandfugen", 
+                    "size": 27
+                }, 
+                {
+                    "flaeche": 443.0, 
+                    "name": "34.8 Grabschmuckablagefl\u00e4che bei Grabfl\u00e4che", 
+                    "size": 67
+                }, 
+                {
+                    "flaeche": 1977.0, 
+                    "name": "34.3 Fallschutz Kunststoffbelag gegossen", 
+                    "size": 34
+                }, 
+                {
+                    "flaeche": 2382.0, 
+                    "name": "35.5 Treppen, Rampen aus Naturstein, Beton Fh", 
+                    "size": 126
+                }, 
+                {
+                    "flaeche": 99112.0, 
+                    "name": "33.7 Asphaltbelag, Zementbelag", 
+                    "size": 228
+                }, 
+                {
+                    "flaeche": 1325.0, 
+                    "name": "31.8 Kiesbelag, gebunden, gU", 
+                    "size": 49
+                }, 
+                {
+                    "flaeche": 8759.0, 
+                    "name": "32.1 Schotterrasen", 
+                    "size": 43
+                }, 
+                {
+                    "flaeche": 6790.0, 
+                    "name": "36.3 Dach und Dachrinne reinigen", 
+                    "size": 24
+                }, 
+                {
+                    "flaeche": 4852.0, 
+                    "name": "33.5 Beton- und Natursteinplatten", 
+                    "size": 186
+                }, 
+                {
+                    "flaeche": 22115.0, 
+                    "name": "33.6 Betonplatten gU", 
+                    "size": 784
+                }, 
+                {
+                    "flaeche": 5952.0, 
+                    "name": "31.7 Kiesbelag, gebunden", 
+                    "size": 3
+                }, 
+                {
+                    "flaeche": 2398.0, 
+                    "name": "31.3 Natursteinplatten, Sandfugen", 
+                    "size": 94
+                }, 
+                {
+                    "flaeche": 1176.0, 
+                    "name": "33.9 Kunststoffbelag / Sportbelag", 
+                    "size": 7
+                }, 
+                {
+                    "flaeche": 6463.0, 
+                    "name": "35.1 Mauern aus Naturstein, Beton", 
+                    "size": 580
+                }, 
+                {
+                    "flaeche": 23220.0, 
+                    "name": "33.4 Verbund-/Betonsteine gU", 
+                    "size": 179
+                }, 
+                {
+                    "flaeche": 3330.0, 
+                    "name": "35.2 Treppen, Rampen aus Naturstein, Beton", 
+                    "size": 256
+                }, 
+                {
+                    "flaeche": 70976.0, 
+                    "name": "33.8 Asphaltbelag, Zementbelag gU", 
+                    "size": 202
+                }, 
+                {
+                    "flaeche": 1875.0, 
+                    "name": "35.3 Geb\u00e4ude, Pavillons, im Unterhalt", 
+                    "size": 18
+                }, 
+                {
+                    "flaeche": 2360.0, 
+                    "name": "32.2 Rasengittersteine", 
+                    "size": 76
+                }, 
+                {
+                    "flaeche": 2401.0, 
+                    "name": "34.4 Fallschutz, Gartenkies", 
+                    "size": 27
+                }, 
+                {
+                    "flaeche": 224.0, 
+                    "name": "32.3 Baumrost", 
+                    "size": 53
+                }, 
+                {
+                    "flaeche": 25179.0, 
+                    "name": "31.5 Kiesbelag", 
+                    "size": 88
+                }, 
+                {
+                    "flaeche": 3627.0, 
+                    "name": "33.2 Natursteinpfl\u00e4sterung, M\u00f6rtelfugen, gU", 
+                    "size": 112
+                }, 
+                {
+                    "flaeche": 10481.0, 
+                    "name": "31.4 Natursteinplatten, Sandfugen, gU", 
+                    "size": 332
+                }, 
+                {
+                    "flaeche": 60673.0, 
+                    "name": "34.7 Asphaltbelag, Zementbelag ohne Kehren", 
+                    "size": 80
+                }, 
+                {
+                    "flaeche": 205.0, 
+                    "name": "35.4 Treppen mit Holz und Pfosten", 
+                    "size": 22
+                }, 
+                {
+                    "flaeche": 2374.0, 
+                    "name": "34.2 Fallschutz Kunststoff Platten", 
+                    "size": 83
+                }, 
+                {
+                    "flaeche": 78869.0, 
+                    "name": "31.6 Kiesbelag gU", 
+                    "size": 527
+                }, 
+                {
+                    "flaeche": 7773.0, 
+                    "name": "31.2 Natursteinpfl\u00e4sterung, Sandfugen, gU", 
+                    "size": 113
+                }, 
+                {
+                    "flaeche": 3080.0, 
+                    "name": "36.2 Sandkasten", 
+                    "size": 117
+                }, 
+                {
+                    "flaeche": 1077.0, 
+                    "name": "34.5 Bollensteine, Schotter", 
+                    "size": 50
+                }, 
+                {
+                    "flaeche": 21.0, 
+                    "name": "36.1 Grill- und Feuerstelle", 
+                    "size": 3
+                }, 
+                {
+                    "flaeche": 12270.0, 
+                    "name": "34.1 Fallschutz und Wege aus Hackholz", 
+                    "size": 102
+                }, 
+                {
+                    "flaeche": 1659.0, 
+                    "name": "33.1 Natursteinpfl\u00e4sterung, M\u00f6rtelfugen", 
+                    "size": 30
+                }, 
+                {
+                    "flaeche": 6488.0, 
+                    "name": "34.6 Ortsbetonbelag", 
+                    "size": 106
+                }
+            ]
+        }, 
+        {
+            "name": " 4 Wasser", 
+            "children": []
+        }, 
+        {
+            "name": "5 Exogen", 
+            "children": [
+                {
+                    "flaeche": 199412.0, 
+                    "name": "51.1 Geb\u00e4ude, nicht im Unterhalt", 
+                    "size": 404
+                }, 
+                {
+                    "flaeche": 6719.0, 
+                    "name": "51.4 Ausstattung, nicht im Unterhalt", 
+                    "size": 722
+                }, 
+                {
+                    "flaeche": 212687.0, 
+                    "name": "51.2 Umgebungsfl\u00e4che nicht im Unterhalt", 
+                    "size": 1079
+                }, 
+                {
+                    "flaeche": 12001.0, 
+                    "name": "51.3 Freizeitg\u00e4rten, nicht im Unterhalt", 
+                    "size": 15
+                }
+            ]
+        }
+    ]
+}

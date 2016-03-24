@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+	<title>Prototyp CAS Projekt</title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"> </script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.13/d3.min.js"></script>
+	<script src="http://dimplejs.org/dist/dimple.v2.1.6.min.js"> </script>
+
+</head>
+<body>
+<header>
+	<div>
+	Mein Header
+	</div>
+</header>
+<div id="main">
+<h1>Prototyp CAS Projekt</h1>
+
+<h2>Folgende Visualisierung wären interessant</h2>
+<p>
+	<ul>
+		<li> TreeMap für Baumartennzahl / Baumsorte / Baumgattung ä</li>
+		<li> Im Template ist es SEHR wichtig, die Listen, Dict, JSON's auseinander zu nehmen, um Umlautprobleme zu umgehen. Untenstehend funktionierts!!</li>
+		<li> Objektabfrage analog Objektauswahl Oracle</li>
+		<ol>
+			<li>Dazu ein Balkendiagramm / Oder Dashboard!!! </li>
+			<li> Dazu verlinken auf MapBS -> Grünkataster</li>
+		</ol>
+		<li> Linienplot / Zeitverlauf Flächen in den Kreisen</li>
+		<li> Irgendein Scatterplot / Fällungen / Typ oder Art</li>
+		<li> Dimple.js is your friend!!</li>
+		<li> Baumarten nach Art/Gattung einteilen</li>
+			<ol>
+				<li>Via select field gattung auswählen </li>
+				<li> Daraus ergibt sich Barchart</li> 
+			</ol>
+		<li>Ein Stacked Bar Chart mit Gattung und innerhalb Baumart anzahl </li>
+	</ul>
+
+
+ </p>
+
+<form> <!-- action="/data_gk" -->
+<div id="myselect">
+</div>
+</form>
+
+<div id="result">
+	
+
+</div>
+
+<div id="myform">
+
+
+<form action="/data">
+<input type="text" value="" name="wert"> 
+
+<!--<input type="file" value="example.com" name="BeispielHTML5_file">
+<input type="email" value="ega@me.com" name="BeispielHTML5_email">-->
+<input type="submit" name="submit">
+</form>
+
+<div id="test">
+
+</div>
+
+<div id="grafiken">
+	
+
+
+</div>
+<div id="d3svg">
+	{% if d1 %}
+{{d1[0]}}
+	{% endif %}
+
+{% for obj in d2 %} 
+bla: {{obj.i25}}
+
+	{% for key, value in obj.iteritems() %}
+
+<p><h1>{{key}} : -> {{value}} </h1></p>
+	
+	{% endfor %}
+stop
+{% endfor %}
+
+
+
+{% if form_data %}
+
+<!--{% for obj in form_data %}-->
+<p><h1>{{form_data}} </h1></p>
+<p><h1>{{obj}} </h1></p>
+
+<!--{% endfor %}-->
+
+{% endif %}
+
+
+
+</div>
+
+
+<footer>
+	<div id="foot">
+	Mein Footer
+	</div> 
+</footer>
+
+<script type="text/javascript" src="static/js/script1.js"></script>
+</body>
+<!--
+	<script type="text/javascript" src="static/js/script1.js"></script>	<script type="text/javascript" src="js/script2.js"></script> -->
+<!--	<script type="text/javascript" src="static/js/script3.js"></script> -->
+</html>

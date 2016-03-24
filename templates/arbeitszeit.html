@@ -1,0 +1,115 @@
+﻿{% extends "base.html" %}
+{% block body %}
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"> </script>
+
+
+<h1>Arbeitszeiterfassung</h1>
+
+<div class="arbeitszeiterfassung">
+<form method="get" action="/handle_formular" >
+	Startzeit: 
+	<input type="datetime-local" name="start_zeit" value="" step="1" id="startzeit">
+	Endzeit:
+	<input type="datetime-local" name="end_zeit" value="" step="1" id="endzeit">	
+    <fieldset>
+      <label>
+    <input type="radio" id="a1" name="arbeits_typ" value="1">
+    <span class="label-body"> Programmierung </span>
+    <input type="radio" id="a2" name="arbeits_typ" value="2">
+     <span class="label-body"> Research </span>
+    <input type="radio" id="a3" name="arbeits_typ" value="3">
+    <span class="label-body"> Admin </span>
+    <input type="radio" id="a4" name="arbeits_typ" value="4">
+    <span class="label-body"> Dokumentation </span>
+
+  </label>
+
+  </fieldset>
+<label for="inptxt1"> Bemerkung</label>
+<input type="text" value="" id="inptxt1">
+
+	<input type="submit" value="In DB schreiben" class="button-primary"> 
+
+
+</form>	
+
+
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <ul class="flashes">
+    {% for message in messages %}
+      <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
+
+
+<div class="row">
+{% if result_data %}
+
+<div class="seven columns">
+<ul class="stundentabelle">
+{% for obj in result_data %}
+
+<li> Beginn: 
+{{ obj[2]|strptime }} Ende:  {{ obj[3]|strptime }} <span class="atyp">{{ obj[6]}}   </span>
+</li>
+
+
+{% endfor %}
+
+
+{% endif %}
+</ul>
+</div>
+
+<div class="five columns">
+
+this is the one-third column. Where does it display?
+<form method="POST" action="" >
+<input type="button" value="Total Std." class="button-primary" id="btn1">
+
+
+
+</form>
+
+<div id="result">
+
+
+
+  </div>
+ <!--
+<script type="text/javascript">
+  // Here comes some Ajax stuff...!
+var get_now_time = function() {
+  var now = new Date() //.toLocaleString();  
+   var datetime = now.getFullYear()+'-'+ ('0' + (now.getMonth()+1)).slice(-2)+'-'+now.getDate(); 
+  datetime += 'T'+now.getHours()+':'+('0' + now.getMinutes()).slice(-2);
+  return datetime 
+
+
+};
+
+$(window).load(function(){
+  console.log("jQuery loaded!");
+   document.getElementById("endzeit").value = get_now_time();
+   document.getElementById("startzeit").value = get_now_time();
+
+});
+
+
+</script>
+-->
+
+
+
+
+</div>
+</div>
+
+
+  <script type="text/javascript" src="static/js/arbeitszeit.js"></script>
+{% endblock %}
+

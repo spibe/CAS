@@ -1,0 +1,121 @@
+{% extends "layout.html" %}
+{% block body %}
+
+
+
+
+<script src="{{ url_for('static', filename = 'js/jquery-1.12.2.min.js') }}"></script>
+<script>
+
+
+
+
+
+var myAjaxFunc = function(data) {
+			console.log("func started");
+			
+			//console.log(data);
+			var inp_text;
+			inp_text= $('#inp1').val();
+			var radio_data = buttonCheck();
+			//console.log("radiovalue: " + String(radio_data));
+	$.ajax({
+    type : "POST",
+    url : "/getAjaxData",
+    data: JSON.stringify({'testdaten':{
+											"input_text":inp_text,
+											"radio_button":radio_data,
+											"func_data":data}}, null, '\t'),
+    contentType: 'application/json;charset=UTF-8',
+    success: function(result) {
+        console.log(result);
+			$('#here').html(result);
+    }
+});
+};
+
+var buttonCheck = function(){
+		var radios =  $("input[name=Kreisauswahl]");
+		var rad_value ;
+		for (var i = 0; i < radios.length; i++ ){
+				//console.log(radios[i].checked);
+				if (radios[i].checked ){
+						rad_value = radios[i].value;
+				} 
+
+		}
+		return rad_value;
+		
+};
+
+
+var generateTableFromJason = function(jsondata) {
+	var data = jsondata;
+
+
+
+
+};
+
+
+
+$(document).ready(function(){ 
+$('#inp1').on('keyup',function(){
+			//console.log('changed!'+this.value );
+			myAjaxFunc();
+			
+			
+			});
+
+$("input[name=Kreisauswahl]:radio").change(function () {
+			//console.log("radio changed" + this.value);
+			myAjaxFunc();
+			});	
+//$("input[name=someRadioGroup]:radio").change(function () {		
+			
+});
+
+	  
+</script>
+<div> 
+<h1> Das ist mein Titel, wird nicht verändert!!</h1>
+
+<form method="POST" action="">
+Gib was ein:
+<input type="text" name="formdaten" id="inp1"/>
+<fieldset>
+<input type="radio" id="rkw" name="Kreisauswahl" value="2"> <label for="rkw"> Kreis West </label> 
+<input type="radio" id="rko" name="Kreisauswahl" value="1"> <label for="rko"> Kreis Ost </label> 
+<input type="radio" id="rkkb" name="Kreisauswahl" value="3"> <label for="rkkb"> Kreis Kleinbasel </label>
+
+</fieldset>
+
+</form>
+
+
+
+<div id="here">
+
+{{ returnData }}
+
+</div>
+
+
+{% endblock %}
+
+<!-- Python Flask View
+#Das ist meine erste Flask Ajax Funktion
+#kann auch für 
+@app.route('/getAjaxData', methods = ["GET", "POST"])
+def getAjaxData():
+
+    c = request.json['testdaten']
+    b = c.get("radio_button",'kein Radioauswahl')
+    txt = c.get("input_text",'kein input text')
+    print c
+    print b
+    return json.dumps({"testdaten_total":c, "td_inp_text":txt, "td_radio":b }) 
+
+	
+$('#inp1').on('submit',function(){console.log('changed!'+this.value );});
+-->

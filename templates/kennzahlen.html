@@ -1,0 +1,28 @@
+﻿{% extends "base.html" %}
+{% block body %}
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="https://d3js.org/queue.v1.min.js"></script>
+<!--<script src="{{url_for('static', filename='js/jsonloads.js')}}" charset="utf-8"></script>-->
+<div class="d3page">
+</div>
+
+  <ul class=data>
+  {% for data in datastore.baumkataster %}
+    <li><h6>{{ data.baumnr }}
+								{% if data.baumart %}	
+	
+								{{ data.baumart.decode('utf-8') }} </h6> </li>
+								
+								{% else %}
+								
+								{{ data.baumart }} </h6> </li>
+								
+								{% endif %} 
+								
+  {% else %}
+    <li><em>Unbelievable.  No datastore available</em> </li>
+  {% endfor %}
+  </ul>
+
+
+{% endblock %}

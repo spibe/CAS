@@ -1,0 +1,40 @@
+﻿{% extends "base.html" %}
+{% block body %}
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="https://d3js.org/queue.v1.min.js"></script>
+<!--<script src="{{url_for('static', filename='js/jsonloads.js')}}" charset="utf-8"></script>-->
+<script src="{{url_for('static', filename='js/jsonloads.js')}}" charset="utf-8"></script>
+<div class="d3page">
+</div>
+
+
+
+
+
+  <div class=profile_data>
+
+<table>
+  <caption>Profile: Aktueller Stand</caption>
+  <thead>
+  <tr>
+    <th>Profil</th>
+    <th>Anzahl</th>
+			<th>Einheit</th>
+  </tr>
+  </thead>
+  <tbody>
+  {% for obj in flaechen %}
+  <tr> <td> {{ obj.profil }}</td>
+			<td class="right {{obj.schema}}" > {{ obj.flaeche_m2 |int }}</td>
+			<td class="right"> {{ obj.einheit }} </td>
+  </tr>
+	{% endfor %}
+
+	
+	</tbody>
+	</table>
+
+</div>
+
+
+{% endblock %}
