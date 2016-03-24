@@ -93,7 +93,14 @@ def db_query(sqlquery = "SELECT * FROM bs_production.cas_stundenrapportierung  O
 	cur = conn.cursor()
 	cur.execute(sqlquery)
 	result = cur.fetchall()
+	conn.close()
 	return result
+
+
+def db_query_summary():
+	pass
+
+
 
 def db_update(**kwargs):
 	conn = psycopg2.connect('host = bernardspichtig.ch  dbname = bernards_postgisdb1\
