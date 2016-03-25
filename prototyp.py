@@ -9,6 +9,7 @@ import psycopg2
 import sys
 import jinja2
 import datetime
+from pgdb import PG_Access
 
 app = Flask(__name__)
 
@@ -72,8 +73,10 @@ def getAjaxData():
     return json.dumps({"testdaten_total":c, "td_inp_text":txt, "td_radio":b }) 
 
 
-
-
+@app.route('/test')
+def test():
+	result = db_query_summary()
+	return json.dumps({"result":result})
 
 
 
@@ -98,7 +101,9 @@ def db_query(sqlquery = "SELECT * FROM bs_production.cas_stundenrapportierung  O
 
 
 def db_query_summary():
-	pass
+	obj = PG_Access(sql="select txt_value from bs_production.cas_zeit_summary")
+	result = obj.query_all()
+	return result
 
 
 
