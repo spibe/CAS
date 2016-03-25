@@ -76,7 +76,12 @@ def getAjaxData():
 @app.route('/test')
 def test():
 	result = db_query_summary()
-	return json.dumps({"result":result})
+	json_returns = []
+	for row in result:
+		json_returns.append((row[0],str(row[1]))) 
+
+
+	return json.dumps({"result":json_returns})
 
 
 
@@ -87,24 +92,19 @@ def test():
 # für die Visualisierungen liefern
 
 def db_query(sqlquery = "SELECT * FROM bs_production.cas_stundenrapportierung  ORDER BY start_zeit DESC"):
-	conn = psycopg2.connect('host = bernardspichtig.ch  dbname = bernards_postgisdb1\
-						user = bernards password = 3Ix50o8rqY \
-						port = 5432')
 	sqlquery = """SELECT * FROM bs_production.cas_stundenrapportierung cas
 	 left join bs_production.lut_arbeits_typ lut ON lut.id = cas.arbeits_typ_id
 	 ORDER BY start_zeit DESC"""
-	cur = conn.cursor()
-	cur.execute(sqlquery)
-	result = cur.fetchall()
-	conn.close()
+	obj = PG_Access(sql = sqlquery)
+	result = obj.query_all()
 	return result
 
 
 def db_query_summary():
-	obj = PG_Access(sql="select txt_value from bs_production.cas_zeit_summary")
+	obj = PG_Access(sql="select txt_value,sum from bs_production.cas_zeit_summary")
 	result = obj.query_all()
-	return result
 
+	return result
 
 
 def db_update(**kwargs):
