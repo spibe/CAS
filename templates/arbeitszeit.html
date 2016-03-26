@@ -27,7 +27,7 @@
 
   </fieldset>
 <label for="inptxt1"> Bemerkung</label>
-<input type="text" value="" id="inptxt1">
+<input type="text" value="" name="bemerkung"  id="inptxt1">
 
 	<input type="submit" value="In DB schreiben" class="button-primary"> 
 
@@ -53,8 +53,8 @@
 <ul class="stundentabelle">
 {% for obj in result_data %}
 
-<li> Beginn: 
-{{ obj[2]|strptime }} Ende:  {{ obj[3]|strptime }} <span class="atyp">{{ obj[6]}}   </span>
+<li> 
+{{ obj[2]|strptime }} bis {{ obj[3]|strptime }} <span class="atyp">{{ obj[6]}}   </span>  Bemerkung: {{ obj[4] }}
 </li>
 
 

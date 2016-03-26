@@ -80,7 +80,6 @@ def test():
 	for row in result:
 		json_returns.append((row[0],str(row[1]))) 
 
-
 	return json.dumps({"result":json_returns})
 
 
@@ -118,9 +117,11 @@ def db_update(**kwargs):
 	start_zeit = kwargs.get("start_zeit",jetzt)
 	end_zeit = kwargs.get("end_zeit",jetzt)
 	typ = kwargs.get("typ",2 ) #Research as Default
+	bemerkung = kwargs.get("bemerkung","") 
+
 	insert_string ="""INSERT INTO bs_production.cas_stundenrapportierung 
-	(start_zeit, end_zeit, arbeits_typ_id) VALUES (to_timestamp(\'{0}\','YYYY-MM-DD\"T\"HH24:MI'),
-	to_timestamp(\'{1}\','YYYY-MM-DD\"T\"HH24:MI'), {2})""".format(start_zeit,end_zeit,typ)
+	(start_zeit, end_zeit, arbeits_typ_id,bemerkung) VALUES (to_timestamp(\'{0}\','YYYY-MM-DD\"T\"HH24:MI'),
+	to_timestamp(\'{1}\','YYYY-MM-DD\"T\"HH24:MI'), {2},'{3}')""".format(start_zeit,end_zeit,typ,bemerkung)
 	print insert_string
 	try:
 		print cur.execute(insert_string)
@@ -160,10 +161,11 @@ def handle_formular():
 	start_zeit = request.args.get("start_zeit",'Nichts eingegeben')
 	end_zeit = request.args.get("end_zeit", "Nichts eingegeben")
 	typ = request.args.get("arbeits_typ","Nichts eingegeben")
+	bemerkung = request.args.get("bemerkung","")
 
-	if db_update(start_zeit=start_zeit, end_zeit=end_zeit, typ=typ):
+	if db_update(start_zeit=start_zeit, end_zeit=end_zeit, typ=typ,bemerkung=bemerkung):
 		flash("DB Eintrag erfolgreich!")
-		flash("Start_Zeit: " + start_zeit + " End_Zeit: " + end_zeit + " Arbeit: "+ typ)
+		flash("Start_Zeit: " + start_zeit + " End_Zeit: " + end_zeit + " Arbeit: "+ typ +" Bemerkung"+bemerkung)
 	else:
 		flash("Eintrag in DB fehlgeschlagen!")
 	return redirect(url_for('get_work_view'))
