@@ -17,6 +17,8 @@ var the_full_data_gk;
 var nestProfile_gk_anz;
 var nestProfile_gk_sumf;
 var nest4select;
+var nestProfile_gk_objekt;
+var nest4select_objekt;
 var destBilder;
 var svg_width = 950;
 var svg_height = 500;
@@ -164,8 +166,39 @@ var process_gruenkataster = function(data) {
 					.rollup(function(leaves){return leaves.length;})
 					.entries(the_full_data_gk.gruenkataster);
 
-	// hier wird die Select mit werten gefüllt				
-	var list = d3.select("#myselect").append("select").attr("name", "dasselect").on("change", change)
+
+	nestProfile_gk_objekt = d3.nest()
+						.key(function(d){return d.bezeichnung}).sortKeys(d3.ascending)
+						.key(function(d){return d.profil}).sortKeys(d3.ascending)
+						.rollup(function(leaves){return {"length":leaves.length,
+							 "total_flaeche": d3.sum(leaves,function(d) {return parseFloat(d.flaeche_m2);})}; })
+						.map(the_full_data_gk.gruenkataster);
+
+
+	nest4select_objekt = d3.nest()
+					.key(function(d){return d.bezeichnung}).sortKeys(d3.ascending)					
+					.rollup(function(leaves){return leaves.length;})
+					.entries(the_full_data_gk.gruenkataster);	
+	
+	// hier wird die Select mit werten gefüllt
+	// Select List auf Template show_d3.html
+	// 2tes Select mit Objekten
+	var list_objekt = d3.select("#myobjekt").append("select")
+						.attr("name","objektselekt").attr("id","objektselekt")
+						.on("change",objekt_auswahl)
+						.selectAll("option")
+						.data(nest4select_objekt)
+						.enter()
+						.append("option")
+						.attr("value",function(d){return d.key;})
+						.text(function(d){return d.key; });
+
+
+
+	// hier wird die Select mit werten gefüllt
+	// Select List auf Template show_d3.html			
+	var list = d3.select("#myselect").append("select")
+			.attr("name", "dasselect").on("change", my_func)
 			.selectAll("option")
 			.data(nest4select)
 			.enter()
@@ -175,12 +208,16 @@ var process_gruenkataster = function(data) {
 
 };
 
+
+/*
 var change = function(data){
 	console.log('yes 1');
-	d3.json("/data_gk",my_func);
+	//d3.json("/data_gk",my_func);
+	my_func();
 };
-
-
+*/
+// Das ist die Callback Funktion bei der Select liste on change
+//its Ajax
 var my_func = function(data){
         $.getJSON('/data_gk', {
           dasselect: $('select').val()
@@ -188,8 +225,19 @@ var my_func = function(data){
           $("#result").text(data.result);
         });
 
+};
+
+var objekt_auswahl = function(data){
+	$("#result_objekt").text($("#objektselekt").val());
+	console.log("func objektauswahl!");
+
+
+
 
 };
+
+
+
 //****************************************
 // Callback Grafiken Profile 
 // ----------------------------------------------

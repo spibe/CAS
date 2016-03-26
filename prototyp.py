@@ -232,6 +232,7 @@ def data_gk():
 	print 'flask data gk'
 	u = []
 	u = request.args.get('dasselect', 'es kam nichts')
+	u += " something completly different"
 	return jsonify(result=u)
 
 if __name__ == "__main__":

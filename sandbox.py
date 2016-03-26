@@ -48,6 +48,14 @@ def generate_bubble_json_from_baum_json():
 	    json.dump(temp_dict, outfile,sort_keys = True, indent = 4)
 
 
+def bubble_baum_objekt():
+	"""Generate bubble json from baum json 
+	grouped by STG Objects """
+
+	
+
+	
+
 def generate_bubble_json_from_profile_json():
 	""" Reads in output_profile_gk.json and reformats the data to 
 	be used in bubble d3."""
@@ -87,6 +95,10 @@ def generate_bubble_json_from_profile_json():
 generate_bubble_json_from_profile_json()
 
 
+
+
+slicer_pos_1 =0
+slicer_pos_2 = 
 
 
 
