@@ -27,7 +27,7 @@ def generate_bubble_json_from_baum_json(filter_objekt=False):
 				alle_gattungen.append(gattung)
 				arten_dict[baumart] = arten_dict.get(baumart,0) +1
 			else:
-				if filter_objekt.encode('utf-8') == unicode(objekt).encode('utf-8'):
+				if filter_objekt == unicode(objekt).encode('utf-8'):
 					alle_gattungen.append(gattung)
 					arten_dict[baumart] = arten_dict.get(baumart,0) +1
 		else:
@@ -48,7 +48,7 @@ def generate_bubble_json_from_baum_json(filter_objekt=False):
 
 
 	#print temp_dict
-	suffix = filter_objekt.encode('utf-8') if filter_objekt else "alle"
+	suffix = filter_objekt if filter_objekt else "alle"
 
 	with open('static/json/baumsorten_python_{suff}.json'.format(suff=suffix), 'w') as outfile:
 	    json.dump(temp_dict, outfile,sort_keys = True, indent = 4)

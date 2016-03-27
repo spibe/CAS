@@ -214,7 +214,7 @@ var svg = d3.select("#bubble_spez").append("svg")
 
 
 
-d3.json("/baumsorten_spezial/Kannenfeldstrasse", function(error, root) {
+d3.json("/baumsorten_spezial/Uni Schönbeinstrasse 6", function(error, root) {
   if (error) throw error;
   console.log(root);
   

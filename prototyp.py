@@ -90,7 +90,8 @@ def totalStunden():
 @app.route('/baumsorten_spezial', methods=["GET","POST"])
 @app.route('/baumsorten_spezial/<string:filter_objekt>')
 def baumsorten_spezial(filter_objekt=False):
-	
+	if filter_objekt:
+		filter_objekt = filter_objekt.encode("utf-8")
 	u = request.args.get("Objekt", "Kein Objekt")
 	print 'My String is:' + str(filter_objekt)
 
