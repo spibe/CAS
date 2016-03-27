@@ -195,6 +195,18 @@ var process_gruenkataster = function(data) {
 
 
 
+  var list_objekte_bubble = d3.select("#myobjektauswahl").append("select")
+            .attr("name","objektselektbubble").attr("id","objektselektbubble")
+            .on("change",getBubbleObjekt)
+            .selectAll("option")
+            .data(nest4select_objekt)
+            .enter()
+            .append("option")
+            .attr("value",function(d){return d.key;})
+            .text(function(d){return d.key; });
+
+
+
 	// hier wird die Select mit werten gefüllt
 	// Select List auf Template show_d3.html			
 	var list = d3.select("#myselect").append("select")

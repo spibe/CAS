@@ -114,6 +114,7 @@ var svg = d3.select("#bubble_profile").append("svg")
     .attr("height", diameter)
     .attr("class", "bubble");
 
+
 d3.json("static/json/profile_python.json", function(error, root) {
   if (error) throw error;
 
@@ -195,7 +196,7 @@ var buttonCheck_bubble = function(){
 
 
 
-var baum_bubble_variable = function(){
+var baum_bubble_variable = function(p_objekt){
 
 var diameter = 960,
     format = d3.format(",d"),
@@ -214,7 +215,7 @@ var svg = d3.select("#bubble_spez").append("svg")
 
 
 
-d3.json("/baumsorten_spezial/Uni Schönbeinstrasse 6", function(error, root) {
+d3.json("/baumsorten_spezial/"+p_objekt, function(error, root) {
   if (error) throw error;
   console.log(root);
   
@@ -256,15 +257,25 @@ function classes(root) {
 }
 
 d3.select(self.frameElement).style("height", diameter + "px");
+d3.selectAll("#bubble_spez").insert("h5","svg").text("Objekt: "+p_objekt);
+
 
 };
 
-baum_bubble_variable();
+//Funktion ausführen:
+//baum_bubble_variable("Uni Schönbeinstrasse 6");
 // ENDE FUNKTION baum_bubble_variable
 //***********************************
 
 
 
+var getBubbleObjekt = function(){
+  baum_bubble_variable($('#objektselektbubble').val());
+
+
+
+
+};
 
 
 
@@ -272,6 +283,14 @@ baum_bubble_variable();
 // Ausführen sobald das HTML Dokument vollständig geladen ist
 $(document).ready(function(){
   console.log("jquery ready!");
+
+
+
+
+
+
+
+
   $("input[name=bk_or_gk]:radio").change(function() {
   if (buttonCheck_bubble()==="GK"){
     //console.log("its GK");

@@ -2,7 +2,7 @@
 {% block body %}
 
 
-<h1>Visualisierungen von Anzahl und Flächengrössen mit Bubbles</h1>
+<h4>Visualisierungen von Anzahl und Flächengrössen mit Bubbles</h4>
 <p class"info">
 
 Alle Bäume der Stadtgärtnerei sind auf dem elektronischen Stadtplan abrufbar. Diesen finden Sie hier: <a href="http://www.stadtplan.bs.ch/geoviewer/index.php?theme=228&cps=2611528.69,1267207.96,5000&nodefault&layers=stadtplan_grau_osm_5000,baumkataster">Geoviewer</a><br>
@@ -12,7 +12,7 @@ Oder für Verwaltungsangestellte auf MapBS mit zusätzlichen Informationen: <a h
 
 </p>
 <div class="row">
-	<div class="six columns" id="qform">
+	<div class="four columns" id="qform">
 		<form>
 			<fieldset>
 				<label>
@@ -27,33 +27,47 @@ Oder für Verwaltungsangestellte auf MapBS mit zusätzlichen Informationen: <a h
 
 
 	</div>
+	<div class="six columns">
+	<h5>Select Formular via interner JSON/JS Abfrage: Objektabfrage </h5>
+	<form> 
+		<div id="myobjektauswahl">
+		</div>
+	</form>
+
+	</div>
 </div>
+
+
+
+
+
+
 
 
 
 
 
 <div id="bubble" class="hidden">
-<p>
+
 <h3>Alle Bäume der Stadtgärtnerei: Aufgeteilt und Gruppiert nach Baumart</h3>
-</p>
+
 </div>
 
 
 
 
 <div id="bubble_profile" class="hidden">
-	<p>
+
 <h3>Alle Flächen der Stadtgärtnerei: Aufgeteilt und Gruppiert nach Profile</h3>	
-</p>
+
 </div>
 
 
 
 <div id="bubble_spez" class="">
-	<p>
-<h4>Alle Bäume der Stadtgärtnerei in einem ausgewählten Objekt: Aufgeteilt und Gruppiert nach Profile</h4>	
-</p>
+
+<h5>Alle Bäume der Stadtgärtnerei in einem ausgewählten Objekt. Aufgeteilt und Gruppiert nach Baumart</h5>	
+
 </div>
 
 
