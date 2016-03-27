@@ -10,6 +10,7 @@ import sys
 import jinja2
 import datetime
 from pgdb import PG_Access
+from sandbox import generate_bubble_json_from_baum_json
 
 app = Flask(__name__)
 
@@ -46,6 +47,7 @@ def show_baumarten_bubble():
 
 
 
+
 @app.route("/zeiterfassung")
 def get_work_view():
 	""" Connect to PG DB (remote) to get all my work done"""
@@ -68,19 +70,31 @@ def getAjaxData():
     c = request.json['testdaten']
     b = c.get("radio_button",'kein Radioauswahl')
     txt = c.get("input_text",'kein input text')
-    print c
-    print b
-    return json.dumps({"testdaten_total":c, "td_inp_text":txt, "td_radio":b }) 
+    
+    res = totalStunden()
 
 
-@app.route('/test')
-def test():
+    return json.dumps({"testdaten_total":c, "td_inp_text":txt, "td_radio":b,"STUNDEN":res }) 
+
+
+@app.route('/totalStunden')
+def totalStunden():
 	result = db_query_summary()
 	json_returns = []
 	for row in result:
 		json_returns.append((row[0],str(row[1]))) 
 
 	return json.dumps({"result":json_returns})
+
+
+@app.route('/baumsorten_spezial', methods=["GET","POST"])
+@app.route('/baumsorten_spezial/<string:filter_objekt>')
+def baumsorten_spezial(filter_objekt=False):
+	
+	u = request.args.get("Objekt", "Kein Objekt")
+	print 'My String is:' + str(filter_objekt)
+
+	return generate_bubble_json_from_baum_json(filter_objekt)
 
 
 
@@ -176,42 +190,6 @@ def handle_formular():
 
 
 
-@app.route("/index")
-def index():
-	"""
-	When you request the root, the index page is shown
-	"""
-	data1 = [i*2 for i in range(10)]
-	data2 = [i*3 for i in range(10)]
-	conn = psycopg2.connect('host = localhost  dbname = baumkataster\
-						user = postgres password = postgres \
-						port = 5432')
-	"""
-	conn1 = psycopg2.connect('host = bernardspichtig.ch  dbname = bernards_postgisdb1\
-						user = bernards password = 3Ix50o8rqY \
-						port = 5432')
-	"""
-
-
-	cur = conn.cursor()
-	cur.execute('select baumart, count(*) from stg_baumkataster.baumgeo group by baumart')
-	result = cur.fetchall()
-	#funktionier einwandfrei, auch mit umlaut
-	"""
-	for i in result:
-		with open('nws_file.txt','a') as f:
-			f.write(i[0] if i[0] else 'None')
-			f.write(sys.getdefaultencoding())
-	print result
-	"""
-	conn.commit()
-	cur.close()
-	conn.close()
-	#funktioniert auf der website nicht!!?
-	lst = [i[0] if i[0] else u'ädf' for i in result]
-	mydict =[{'i{0}'.format(i):i} for i in range(5)]
-
-	return render_template("layout.html",d1=[u'ädfdskfj',u'sääüüö'], d2=mydict)
 
 
 @app.route("/data")

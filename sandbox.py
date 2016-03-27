@@ -6,7 +6,7 @@ import datetime
 
 
 
-def generate_bubble_json_from_baum_json():
+def generate_bubble_json_from_baum_json(filter_objekt=False):
 	""" Reads in output.json and reformats the data to 
 	be used in bubble d3."""
 	result = open('static/json/output.json').read()
@@ -19,11 +19,17 @@ def generate_bubble_json_from_baum_json():
 	for obj in data["baumkataster"]:
 		if obj["baumart"]:
 			baumart = obj["baumart"]
-			gattung = obj["baumart"].split(' ')[0] 
-			alle_gattungen.append(gattung)
+			gattung = obj["baumart"].split(' ')[0]
+			objekt = obj["objekt"] 
 			obj["Gattung"] = gattung
-			arten_dict[baumart] = arten_dict.get(baumart,0) +1
-
+			
+			if not filter_objekt:
+				alle_gattungen.append(gattung)
+				arten_dict[baumart] = arten_dict.get(baumart,0) +1
+			else:
+				if filter_objekt.encode('utf-8') == unicode(objekt).encode('utf-8'):
+					alle_gattungen.append(gattung)
+					arten_dict[baumart] = arten_dict.get(baumart,0) +1
 		else:
 			obj["Gattung"] = None
 
@@ -41,11 +47,13 @@ def generate_bubble_json_from_baum_json():
 		#		temp_dict["children"].append({"name":key, "size": value})		
 
 
-	print temp_dict
+	#print temp_dict
+	suffix = filter_objekt.encode('utf-8') if filter_objekt else "alle"
 
-
-	with open('static/json/baumsorten_python.json', 'w') as outfile:
+	with open('static/json/baumsorten_python_{suff}.json'.format(suff=suffix), 'w') as outfile:
 	    json.dump(temp_dict, outfile,sort_keys = True, indent = 4)
+
+	return json.dumps(temp_dict)    
 
 
 def bubble_baum_objekt():
@@ -92,13 +100,12 @@ def generate_bubble_json_from_profile_json():
 	with open("static/json/profile_python.json",'w') as outfile:
 		json.dump(temp_dict,outfile, indent = 4)	
 
-generate_bubble_json_from_profile_json()
 
-
-
-
-slicer_pos_1 =0
-slicer_pos_2 = 
+if __name__ == "__main__":
+	#generate_bubble_json_from_profile_json()
+	generate_bubble_json_from_baum_json("Kannenfeldstrasse")
+	generate_bubble_json_from_baum_json(u"Schönbeinstrasse")
+	generate_bubble_json_from_baum_json(u"Vogesenstrasse, Mülhauserstrasse - St. Johanns-Ring")
 
 
 
