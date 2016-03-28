@@ -236,7 +236,7 @@ d3.json("/baumsorten_spezial/"+p_objekt, function(error, root) {
   node.append("text")
       .attr("dy", ".3em")
       .style("text-anchor", "middle")
-      .text(function(d) { return d.className.substring(0, d.r / 3); })
+      .text(function(d) { return d.value +" \n\r "+d.className.substring(0, d.r / 3); })
       .attr("class", "texttooltip")
 
 });
