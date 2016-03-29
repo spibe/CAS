@@ -6,7 +6,7 @@ import datetime
 
 
 
-def generate_bubble_json_from_baum_json(filter_objekt=False):
+def generate_bubble_json_from_baum_json(filter_objekt=False, disc_write=False):
 	""" Reads in output.json and reformats the data to 
 	be used in bubble d3."""
 	result = open('static/json/output.json').read()
@@ -50,8 +50,9 @@ def generate_bubble_json_from_baum_json(filter_objekt=False):
 	#print temp_dict
 	suffix = filter_objekt if filter_objekt else "alle"
 
-	with open('static/json/baumsorten_python_{suff}.json'.format(suff=suffix), 'w') as outfile:
-	    json.dump(temp_dict, outfile,sort_keys = True, indent = 4)
+	if disc_write:	
+		with open('static/json/baumsorten_python_{suff}.json'.format(suff=suffix), 'w') as outfile:
+		    json.dump(temp_dict, outfile,sort_keys = True, indent = 4)
 
 	return json.dumps(temp_dict)    
 

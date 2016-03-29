@@ -65,9 +65,7 @@ var do_multiline = function() {
 
 };
 
-d3.select("#foot").on("click", function(){
-			d3.json("static/json/outLimit.json",callback);
-		} );
+
 
 
 var callback_output = function(data) {
