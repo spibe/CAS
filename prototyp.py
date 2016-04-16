@@ -11,8 +11,7 @@ import jinja2
 import datetime
 from pgdb import PG_Access
 from sandbox import generate_bubble_json_from_baum_json
-
-app = Flask(__name__)
+dapp = Flask(__name__)
 
 
 
@@ -20,7 +19,7 @@ app = Flask(__name__)
 def go_home():
 	return render_template('base.html')
 
-
+@app.route("/handbuch")
 @app.route("/grafiken")
 def show_grafiken():
 	return render_template("grafiken.html")

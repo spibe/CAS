@@ -44,7 +44,11 @@ class Test(unittest.TestCase):
     	res = self.session.query(Stundenrapportierung)
     	res = res.join(Arbeitstyp)
     	res = res.filter(Arbeitstyp.txt_value == 'Dokumentation')
-    	print res
+    	
+
+
+if __name__ == '__main__':
+	unittest.main()
 
 
 

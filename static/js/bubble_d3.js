@@ -289,8 +289,6 @@ $(document).ready(function(){
 
 
 
-
-
   $("input[name=bk_or_gk]:radio").change(function() {
   if (buttonCheck_bubble()==="GK"){
     //console.log("its GK");

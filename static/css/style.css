@@ -11,11 +11,13 @@ ul#layout-links li a {
     padding:5px;
     transition: color 0.35s ease-in-out;
     transition: background-color 0.35s ease-in-out;
+    
 }
 
 ul#layout-links li a:hover {
     background-color: #9FF781;
 	  color: black;
+
 
 }
 
